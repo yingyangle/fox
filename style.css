@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Allerta+Stencil&family=Bellefair&family=Bodoni+Moda&family=Cabin+Sketch&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:wght@300&family=El+Messiri&family=Josefin+Slab:wght@400;500&family=Julius+Sans+One&family=Monoton&family=Nanum+Pen+Script&family=Playfair+Display+SC&family=Poiret+One&family=Spectral&family=Tenor+Sans&family=Thasadith&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Kiwi+Maru:wght@300;400;500&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Barriecito&family=Cinzel+Decorative:wght@400;700;900&family=Fondamento:ital@0;1&family=Mirza:wght@400;500;600;700&family=Open+Sans&family=Sigmar+One&display=swap');
+
+:root {
+	/* COLORS */
+	--my-white: #fffcf5;
+	--my-black: #453b1a;
+	--text-hover-color: #747474;
+	--my-blue: #79b7bb;
+	--my-blue-dark: #679b9f;
+	--my-blue-light: #A7CFD3;
+	--my-green: #7FBD6F;
+	--my-purple: #9268AB;
+	--my-purple-light: #BDB1F9;
+	--my-orange: #ffae4a;
+	/* --my-orange: #ffba66; */
+
+	/* FONTS */
+	/* Lyon Text Web */
+	--heading-font: 'Cinzel Decorative', serif;
+	--body-font: 'Crimson Text', serif; 
+	--ipa-font: 'Times New Roman', sans-serif;
+}
+
+::selection {
+	background-color: var(--my-orange);
+	color: white;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body, #overlay {
+	color: var(--my-black);
+	background-color: var(--my-white);
+	font-family: var(--body-font), sans-serif;
+	text-align: center;
+}
+
+#container {
+	margin: 50px;
+}
+
+h3 {
+	font-size: 40px;
+	font-family: var(--heading-font);
+}
+
+h5 {
+	font-size: 30px;
+	font-family: var(--heading-font);
+}
+
+p {
+	font-size: 22px;
+	font-weight: 100;
+}
+
+a {
+	font-size: 18px;
+	color: var(--my-blue); 
+	line-height: 40px;
+}
+
+a:hover {
+	color: var(--my-blue); 
+}
+
+.btn {
+	color: #f7f7f7;
+	background-color: var(--my-blue); 
+	border-color: transparent;
+	margin: 0 10px 0 10px;
+	font-size: 18px;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+	color: #f7f7f7;
+	background-color: var(--my-blue-dark); 
+	border-color: none;
+}
+
+.noscroll { 
+	overflow: hidden;
+}
+
+#overlay {
+	position: fixed;
+	overflow-y: scroll;
+	z-index: 100;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: white;
+	visibility: visible;
+	text-align: center;
+}
+
+.icon {
+	content: '\f002';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 900;
+	font-size: 16px;
+	width: 20px;
+	height: 20px;
+}
+
+#title {
+	font-size: 56px;
+	font-family: var(--heading-font);
+}
+
+#fable-interactions .group {
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+	
+}
+
+
