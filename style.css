@@ -115,6 +115,32 @@ a:hover {
 	font-family: var(--heading-font);
 }
 
+#container > .viz {
+	margin: 0 200px;
+}
+
+.row .viz {
+	margin: 0 40px;
+}
+
+.barchart rect {
+	fill: var(--my-orange);
+	opacity: 0.7;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.barchart rect:hover {
+	opacity: 0.9;
+	transition: 0.2s;
+}
+
+.barchart text {
+	font-size: 20px;
+	/* font-family: 'Corbel'; */
+	/* font-weight: 100; */
+}
+
 #fable-interactions .group {
 	cursor: pointer;
 }

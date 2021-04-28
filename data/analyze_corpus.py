@@ -16,6 +16,7 @@ from spacy.matcher import Matcher
 from spacy.tokens import Span
 
 DATA_PATH = '/Users/christine/csfat/gutenberg/data/text'
+DATA_PATH = 'texts'
 METADATA_PATH = '/Users/christine/csfat/gutenberg/metadata/metadata.csv'
 
 # load spacy English model
@@ -48,6 +49,31 @@ patterns = [
 		{'POS': 'VERB'},
 		{'POS': 'ADV', 'OP': '*'},
 	],
+	# # PATTERN 1 - adjectives
+	# # add he's a ___?
+	# [
+	# 	{'LEMMA': 'reynard'},
+	# 	{'LEMMA': 'be'},
+	# 	{'POS': 'ADV', 'OP': '*'},
+	# 	{'POS': 'ADJ', 'OP': '+'},
+	# 	{'LEMMA': 'and', 'OP': '?'},
+	# 	{'POS': 'ADV', 'OP': '*'},
+	# 	{'POS': 'ADJ', 'OP': '*'},
+	# ],
+	# # PATTERN 2 - adjectives
+	# [
+	# 	{'POS': 'ADJ', 'OP': '*'},
+	# 	{'LEMMA': 'and', 'OP': '?'},
+	# 	{'POS': 'ADJ', 'OP': '+'},
+	# 	{'LEMMA': 'reynard'},
+	# ],
+	# # PATTERN 2 - verbs
+	# [
+	# 	{'LEMMA': 'reynard'},
+	# 	{'POS': 'ADV', 'OP': '*'},
+	# 	{'POS': 'VERB'},
+	# 	{'POS': 'ADV', 'OP': '*'},
+	# ],
 ]
 matchers = []
 for pattern in patterns:
@@ -65,7 +91,7 @@ df = pd.read_csv(METADATA_PATH)
 files = [x for x in os.listdir(DATA_PATH) if x.endswith('.txt')]
 print('# files:', len(files))
 
-test_text = "Hello this is just some random text alrighty then let's get started. The sneaky fox was back at it again. The crafy and sneaky fox snuck into my room. The crafty, lithe, and sneaky fox is super cool. Of all the animals, his fox is the coolest one. His fox is sneaky. The fox is very crafty. The bad foxes are stupid. The fox was really really dumb. The foxes were somewhat smart and clever."
+test_text = "Hello this is just some random text alrighty then let's get started. The sneaky fox was back at it again. The crafy and sneaky fox snuck into my room. The crafty, lithe, and sneaky fox is super cool. Of all the animals, his fox is the coolest one. His fox is sneaky. The fox is very crafty. The bad foxes are stupid. The fox was really really dumb. The foxes were somewhat smart and clever. Foxes are great!"
 
 book_ids = []
 starts = []
@@ -75,40 +101,37 @@ matches = []
 i = 0
 for f in files:
 	f = DATA_PATH+'/'+ f
-	# f = 'tales.txt' # for testing
+	# f = 'texts/gran.txt' # for testing
 	print(f)
 	
-	# read in file
-	ein = open(f, 'r')
-	text = ein.read().strip()
-	ein.close()
-	# text = test_text
+	try:
+		# read in file
+		ein = open(f, 'r')
+		text = ein.read().strip().lower()
+		ein.close()
+		# text = test_text
 	
-	# skip if fox doesn't appear in text at all
-	if 'fox' not in text.lower(): 
-		print('SKIPPED')
-		continue
+		# skip if fox doesn't appear in text at all
+		if 'fox' not in text: 
+			print('SKIPPED')
+			continue
 	
-	# search for patterns
-	text = nlp(text)
-	for matcher in matchers:
-		matches_found = matcher(text)
-		# print matches
-		for match_id, start, end in matches_found:
-			# get str representation 
-			string_id = nlp.vocab.strings[match_id]  
-			span = text[start:end]  # The matched span
-			print(match_id, string_id, start, end, span.text)
-			starts.append(start)
-			ends.append(end)
-			matches.append(span.text)
-			book_ids.append(f)
-	
-	# break
-	#
-	# i += 1
-	# if i > 10: break
-
+		# search for patterns
+		text = nlp(text)
+		for matcher in matchers:
+			matches_found = matcher(text)
+			# print matches
+			for match_id, start, end in matches_found:
+				# get str representation 
+				string_id = nlp.vocab.strings[match_id]  
+				span = text[start:end]  # the matched span
+				print(match_id, string_id, start, end, span.text)
+				starts.append(start)
+				ends.append(end)
+				matches.append(span.text)
+				book_ids.append(f)
+	except:
+		print(f, 'ERRORRRRRRR')
 
 
 df = pd.DataFrame({
