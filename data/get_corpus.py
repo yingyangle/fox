@@ -62,7 +62,7 @@ def getBookLinks(SUBJECT_URL):
 		if not len(URL): break
 		URL = BASE_URL + URL[0].get('href')
 		page_links.append(URL)
-	
+
 		# find book links
 		li = soup.findAll('li', attrs={'class': 'booklink'})
 		# print(li)
@@ -74,33 +74,33 @@ def getBookLinks(SUBJECT_URL):
 # download book at a given book link
 def getBook(book_link):
 	URL = 'http://www.gutenberg.org'+str(book_link)
-	
+
 	# load page
-	session = requests.Session() 
+	session = requests.Session()
 	response = session.get(URL, timeout=5)
 	soup = BeautifulSoup(response.content, 'html.parser')
-	
+
 	# book info table
 	table = soup.findAll('table')[-1]
-	
+
 	# get table rows
 	th = table.findAll('th')
 	th = [x.getText().strip() for x in th]
 	td = table.findAll('td')
 	td = [x.getText().strip() for x in td]
-	
+
 	# book info dict
 	d = {th[i]:td[i] for i in range(len(th))}
-	
+
 	# add to metadata
 	book_id = d['EBook-No.']
 	metadata[int(book_id)] = d
-	
+
 	# load .txt page
 	dl = soup.findAll('a', string='Plain Text UTF-8')
 	if not len(dl): return
 	dl = 'http://www.gutenberg.org' + dl[0].get('href')
-	session = requests.Session() 
+	session = requests.Session()
 	response = session.get(dl, timeout=5)
 	soup = BeautifulSoup(response.content, 'html.parser')
 	if 'fox' not in str(soup).lower():
@@ -110,7 +110,7 @@ def getBook(book_link):
 	# save .txt page
 	with open('texts/{}.txt'.format(book_id), 'w') as aus:
 		aus.write(str(soup))
-	
+
 	return
 
 
@@ -139,6 +139,9 @@ for book in book_links:
 with open('gutenberg_metadata.json', 'w') as aus:
 	json.dump(metadata, aus)
 
+# save as json
+df = pd.read_json('gutenberg_metadata.json', orient='index')
+df.to_csv('gutenberg_metadata.csv', index=False, encoding='utf-8-sig')
 
 
 
