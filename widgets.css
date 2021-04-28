@@ -39,7 +39,7 @@
 
 #navbar-items a:hover {
 	text-decoration: none;
-	color: #79b7bb;
+	color: var(--my-orange-dark);
 	cursor: pointer;
 }
 

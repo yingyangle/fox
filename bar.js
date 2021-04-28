@@ -1,12 +1,7 @@
 // margins
 var margin = {top: 60, right: 80, bottom: 60, left: 80},
-	width = 800 - margin.left - margin.right,
+	width = 660 - margin.left - margin.right,
 	height = 400 - margin.top - margin.bottom
-
-// let m = 10
-// let margin = ({ top: 50, right: m, bottom: 10, left: m })
-// let width = 700
-// let height = 500
 
 var data = [{
 		'name': 'crafty',

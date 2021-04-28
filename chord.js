@@ -169,7 +169,5 @@ function drawChord() {
 
 }
 
-
-
 // EXECUTE
 drawChord()

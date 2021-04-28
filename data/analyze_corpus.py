@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 
 # https://predictivehacks.com/rule-based-matching-for-nlp-using-spacy/
+# https://spacy.io/api/matcher
+# https://stackoverflow.com/questions/40288323/what-do-spacys-part-of-speech-and-dependency-tags-mean
+# https://spacy.io/api/data-formats/#pos-tagging
 
 # PATTERNS TO MATCH
 # fox is/was [ADJ]
@@ -15,9 +18,7 @@ from collections import Counter
 from spacy.matcher import Matcher
 from spacy.tokens import Span
 
-DATA_PATH = '/Users/christine/csfat/gutenberg/data/text'
 DATA_PATH = 'texts'
-METADATA_PATH = '/Users/christine/csfat/gutenberg/metadata/metadata.csv'
 
 # load spacy English model
 nlp = spacy.load('en_core_web_sm')
@@ -42,13 +43,30 @@ patterns = [
 		{'POS': 'ADJ', 'OP': '+'},
 		{'LEMMA': 'fox'},
 	],
-	# PATTERN 2 - verbs
+	# PATTERN 3 - verbs
 	[
 		{'LEMMA': 'fox'},
 		{'POS': 'ADV', 'OP': '*'},
 		{'POS': 'VERB'},
 		{'POS': 'ADV', 'OP': '*'},
 	],
+	# PATTERN 2 - adjectives
+	[
+		{'LEMMA': 'fox'},
+		{'TEXT': "'", 'OP': '?'},
+		{'TEXT': "'s", 'OP': '?'},
+		{'POS': 'ADV', 'OP': '*'},
+		{'POS': 'ADJ', 'OP': '*'},
+		{'POS': 'NOUN', 'OP': '*'},
+	],
+	# # PATTERN 4 - sentence
+	# [
+	# 	{'TEXT': {'REGEX': '[\.\!\?\n]'}},
+	# 	{'TEXT': {'REGEX': '[^\.\!\?\n]'}, 'OP': '*'},
+	# 	{'LEMMA': 'fox'},
+	# 	{'TEXT': {'REGEX': '[^\.\!\?\n]'}, 'OP': '*'},
+	# 	{'TEXT': {'REGEX': '[\.\!\?\n]'}},
+	# ],
 	# # PATTERN 1 - adjectives
 	# # add he's a ___?
 	# [
@@ -67,7 +85,7 @@ patterns = [
 	# 	{'POS': 'ADJ', 'OP': '+'},
 	# 	{'LEMMA': 'reynard'},
 	# ],
-	# # PATTERN 2 - verbs
+	# # PATTERN 3 - verbs
 	# [
 	# 	{'LEMMA': 'reynard'},
 	# 	{'POS': 'ADV', 'OP': '*'},
@@ -82,23 +100,20 @@ for pattern in patterns:
 	matcher.add('Matching', None, pattern)
 	matchers.append(matcher)
 
-# read metadata
-df = pd.read_csv(METADATA_PATH)
-# print(df)
-# print(df.columns)
-
 # go through books one at a time
 files = [x for x in os.listdir(DATA_PATH) if x.endswith('.txt')]
 print('# files:', len(files))
 
-test_text = "Hello this is just some random text alrighty then let's get started. The sneaky fox was back at it again. The crafy and sneaky fox snuck into my room. The crafty, lithe, and sneaky fox is super cool. Of all the animals, his fox is the coolest one. His fox is sneaky. The fox is very crafty. The bad foxes are stupid. The fox was really really dumb. The foxes were somewhat smart and clever. Foxes are great!"
+test_text = "Hello this is just some random text alrighty then let's get started. The sneaky fox was back at it again. The crafy and sneaky fox snuck into my room. The crafty, lithe, and sneaky fox is super cool. Of all the animals, his fox is the coolest one. His fox is sneaky. The fox is very crafty. The bad foxes are stupid. The fox was really really dumb. The foxes were somewhat smart and clever. Foxes are great! The sneakiest fox."
+test_text = "The sneaky fox's cubs. The sneaky foxes' cubs"
 
 book_ids = []
 starts = []
 ends = []
+match_types = []
 matches = []
 
-i = 0
+j = 0
 for f in files:
 	f = DATA_PATH+'/'+ f
 	# f = 'texts/gran.txt' # for testing
@@ -109,7 +124,7 @@ for f in files:
 		ein = open(f, 'r')
 		text = ein.read().strip().lower()
 		ein.close()
-		# text = test_text
+		text = test_text
 	
 		# skip if fox doesn't appear in text at all
 		if 'fox' not in text: 
@@ -118,26 +133,45 @@ for f in files:
 	
 		# search for patterns
 		text = nlp(text)
-		for matcher in matchers:
+		for i in range(len(matchers)):
+			matcher = matchers[i]
 			matches_found = matcher(text)
 			# print matches
 			for match_id, start, end in matches_found:
 				# get str representation 
 				string_id = nlp.vocab.strings[match_id]  
 				span = text[start:end]  # the matched span
-				print(match_id, string_id, start, end, span.text)
+				print(match_id, string_id, start, end, i, span.text)
 				starts.append(start)
 				ends.append(end)
+				match_types.append(i)
 				matches.append(span.text)
 				book_ids.append(f)
 	except:
 		print(f, 'ERRORRRRRRR')
+	
+	break
+	# if j > 7: break
+	# j += 1
+	# print(j)
+	
+	# save progress
+	if not i % 20:
+		df = pd.DataFrame({
+			'book_id': book_ids,
+			'start': starts,
+			'end': ends,
+			'match_type': match_types,
+			'match': matches,
+		})
+		df.to_csv('gutenberg.csv', index=False, encoding='utf-8-sig')
 
 
 df = pd.DataFrame({
 	'book_id': book_ids,
 	'start': starts,
 	'end': ends,
+	'match_type': match_types,
 	'match': matches,
 })
 df.to_csv('gutenberg.csv', index=False, encoding='utf-8-sig')
