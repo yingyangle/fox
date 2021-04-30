@@ -1,3 +1,16 @@
+#tooltip {
+	font-size: 18px;
+	color: white;
+	background-color: var(--my-orange);
+	border-radius: 6px;
+	padding: 10px;
+	max-width: 260px;
+	position: absolute;
+	z-index: 3;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
 /*** NAVIGATION BAR ***/
 
 #navbar-items.collapsed {

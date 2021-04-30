@@ -1,0 +1,33 @@
+﻿book_id,start,end,match_type,match
+texts/25918.txt,40,44,0,fox is super cool
+texts/25918.txt,58,61,0,fox is sneaky
+texts/25918.txt,63,67,0,fox is very crafty
+texts/25918.txt,70,73,0,foxes are stupid
+texts/25918.txt,75,80,0,fox was really really dumb
+texts/25918.txt,82,88,0,foxes were somewhat smart and clever
+texts/25918.txt,89,92,0,Foxes are great
+texts/25918.txt,15,17,1,sneaky fox
+texts/25918.txt,24,28,1,crafy and sneaky fox
+texts/25918.txt,38,41,1,and sneaky fox
+texts/25918.txt,69,71,1,bad foxes
+texts/25918.txt,94,96,1,sneakiest fox
+texts/25918.txt,16,19,2,fox was back
+texts/25918.txt,40,43,2,fox is super
+texts/25918.txt,51,53,2,fox is
+texts/25918.txt,58,60,2,fox is
+texts/25918.txt,63,66,2,fox is very
+texts/25918.txt,70,72,2,foxes are
+texts/25918.txt,75,79,2,fox was really really
+texts/25918.txt,82,85,2,foxes were somewhat
+texts/25918.txt,89,91,2,Foxes are
+texts/25918.txt,16,17,3,fox
+texts/25918.txt,27,29,3,fox snuck
+texts/25918.txt,40,41,3,fox
+texts/25918.txt,51,52,3,fox
+texts/25918.txt,58,59,3,fox
+texts/25918.txt,63,64,3,fox
+texts/25918.txt,70,71,3,foxes
+texts/25918.txt,75,76,3,fox
+texts/25918.txt,82,83,3,foxes
+texts/25918.txt,89,90,3,Foxes
+texts/25918.txt,95,96,3,fox

@@ -1,24 +1,36 @@
 var opacityValueBase = 0.7
+var matrix, group_labels, interactions
 
 // chord diagram name labels and colors
-var group_labels = ['dog', 'donkey', 'eagle', 'farmer', 'fox', 'hermes', 'lion', 'man', 'sheep', 'snake', 'wolf', 'zeus']
+// var group_labels = ['dog', 'donkey', 'eagle', 'farmer', 'fox', 'hermes', 'lion', 'man', 'sheep', 'snake', 'wolf', 'zeus']
 var colors = ['#C4C4C4','#69B40F','#EC1D25','#C8125C','#008FC8','#10218B','#134B24','#737373', ]
 
-// chord diagram matrix data
-var matrix = [
-	[0, 2, 0, 0, 2, 1, 1, 3, 4, 0, 5, 0], 
-	[2, 0, 0, 0, 2, 0, 7, 2, 0, 0, 2, 0], 
-	[0, 0, 0, 2, 3, 0, 1, 0, 0, 1, 0, 0], 
-	[0, 0, 2, 0, 1, 0, 2, 0, 0, 3, 1, 0], 
-	[2, 2, 3, 1, 0, 0, 11, 1, 0, 0, 7, 0], 
-	[1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], 
-	[1, 7, 1, 2, 11, 0, 0, 2, 1, 0, 3, 0], 
-	[3, 2, 0, 0, 1, 3, 2, 0, 0, 0, 1, 1], 
-	[4, 0, 0, 0, 0, 0, 1, 0, 0, 0, 5, 0], 
-	[0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 1], 
-	[5, 2, 0, 1, 7, 0, 3, 1, 5, 0, 0, 0], 
-	[0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]
-]
+// // chord diagram matrix data
+// var matrix = [
+// 	[0, 2, 0, 0, 2, 1, 1, 3, 4, 0, 5, 0], 
+// 	[2, 0, 0, 0, 2, 0, 7, 2, 0, 0, 2, 0], 
+// 	[0, 0, 0, 2, 3, 0, 1, 0, 0, 1, 0, 0], 
+// 	[0, 0, 2, 0, 1, 0, 2, 0, 0, 3, 1, 0], 
+// 	[2, 2, 3, 1, 0, 0, 11, 1, 0, 0, 7, 0], 
+// 	[1, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0], 
+// 	[1, 7, 1, 2, 11, 0, 0, 2, 1, 0, 3, 0], 
+// 	[3, 2, 0, 0, 1, 3, 2, 0, 0, 0, 1, 1], 
+// 	[4, 0, 0, 0, 0, 0, 1, 0, 0, 0, 5, 0], 
+// 	[0, 0, 1, 3, 0, 0, 0, 0, 0, 0, 0, 1], 
+// 	[5, 2, 0, 1, 7, 0, 3, 1, 5, 0, 0, 0], 
+// 	[0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0]
+// ]
+
+// load data
+d3.json('data/chord_data.json', function (error, data) {
+	console.log(data)
+	group_labels = data['characters']
+	matrix = data['matrix']
+	interactions = data['interactions']
+
+	// EXECUTE
+	drawChord()
+})
 
 function drawChord() {
 		
@@ -57,7 +69,8 @@ function drawChord() {
 		.data(chord.groups)
 		.enter()
 		.append('svg:g')
-		.attr('class', function(d) {return 'group ' + group_labels[d.index];})
+		.attr('class', 'group')
+		.attr('data-character', d => group_labels[d.index])
 		
 	g.append('svg:path')
 		.attr('class', 'arc')
@@ -101,36 +114,79 @@ function drawChord() {
 	svg.selectAll('g.group')
 		.selectAll('.titles')
 
+	// // hover fade effect for each group
+	// d3.selectAll('.group')
+	// 	.on('mouseover', fade(0.1))
+	// 	.on('mouseout', fade(opacityValueBase))
+	// // hover fade effect for each path link
+	// d3.selectAll('path.chord')
+	// 	.on('mouseover', fadePath(0.1))
+	// 	.on('mouseout', fadePath(opacityValueBase))
+
+	
 	// hover fade effect for each group
 	d3.selectAll('.group')
-		.on('mouseover', fade(0.1))
-		.on('mouseout', fade(opacityValueBase))
+		.on('mouseover', (d,i) => {
+			fade(0.1, d, i)
+			var chara = group_labels[d.index]
+			var count = Object.values(interactions[chara]).reduce((a, b) => a + b, 0)
+			$('#tooltip')
+				.css('opacity', 0.9)
+				.css('left', (event.pageX + 20) + 'px')
+				.css('top', (event.pageY + 20) + 'px')
+				.html(`${count} fables featuring ${chara}`)
+		})
+		.on('mousemove', d => {
+			$('#tooltip')
+				.css('opacity', 0.9)
+				.css('left', (event.pageX + 20) + 'px')
+				.css('top', (event.pageY + 20) + 'px')
+		})
+		.on('mouseout', (d,i) => {
+			fade(opacityValueBase, d, i)
+			$('#tooltip').css('opacity', 0)
+		})
 	// hover fade effect for each path link
 	d3.selectAll('path.chord')
-		.on('mouseover', fadePath(0.1))
-		.on('mouseout', fadePath(opacityValueBase))
+		.on('mouseover', (d,i) => {
+			fadePath(0.1, d, i)
+			var source = group_labels[d.source.index]
+			var target = group_labels[d.target.index]
+			var count = matrix[d.source.index][d.target.index]
+			$('#tooltip')
+				.css('opacity', 0.9)
+				.css('left', (event.pageX + 20) + 'px')
+				.css('top', (event.pageY + 20) + 'px')
+				.html(`${count} fables featuring ${source} and ${target}`)
+		})
+		.on('mousemove', d => {
+			$('#tooltip')
+				.css('opacity', 0.9)
+				.css('left', (event.pageX + 20) + 'px')
+				.css('top', (event.pageY + 20) + 'px')
+		})
+		.on('mouseout', (d,i) => {
+			fadePath(opacityValueBase, d, i)
+			$('#tooltip').css('opacity', 0)
+		})
 
 	/*//////////////////////////////////////////////////////////
 	////////////////// Extra Functions /////////////////////////
 	//////////////////////////////////////////////////////////*/
 
 	// returns an event handler for fading a given chord group
-	function fade(opacity) {
-		console.log('fade')
-		return function(d, i) {
-			svg.selectAll('path.chord')
+	function fade(opacity, d, i) {
+		svg.selectAll('path.chord')
 				.filter(d => d.source.index != i && d.target.index != i)
 				.transition()
 				.duration(70)
 				.style('stroke-opacity', opacity)
 				.style('fill-opacity', opacity)
-		}
 	}
 
 	// returns an event handler for fading a given path
-	function fadePath(opacity) {
-		return function(d, i) {
-			var source = d.source.index
+	function fadePath(opacity, d, i) {
+		var source = d.source.index
 			var target = d.target.index
 			svg.selectAll('path.chord')
 				.filter(d => d.source.index != source || d.target.index != target)
@@ -138,7 +194,6 @@ function drawChord() {
 				.duration(70)
 				.style('stroke-opacity', opacity)
 				.style('fill-opacity', opacity)
-		}
 	}
 
 	// taken from http://bl.ocks.org/mbostock/7555321
@@ -168,6 +223,3 @@ function drawChord() {
 	}
 
 }
-
-// EXECUTE
-drawChord()

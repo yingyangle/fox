@@ -24,7 +24,9 @@ for n in range(N+1):
 # print(interactions)
 
 df = pd.read_csv('gibbs_characters.csv')
-characters = list(df['character'])[:12]
+exclude_list = ['zeus', 'hermes', 'aesop']
+characters = [x for x in list(df['character']) if x not in exclude_list]
+characters = characters[:12]
 characters = sorted(characters)
 print(characters)
 
@@ -40,5 +42,12 @@ for chara in characters:
 	matrix.append(row)
 print(matrix)
 
+chord_data = {
+	'characters': characters,
+	'matrix': matrix,
+	'interactions': interactions,
+}
+with open('chord_data.json', 'w') as aus:
+	json.dump(chord_data, aus)
 
 

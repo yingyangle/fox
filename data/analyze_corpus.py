@@ -21,7 +21,7 @@ from spacy.tokens import Span
 DATA_PATH = 'texts'
 
 # read metadata
-with open('gutenberg_metadata.json') as ein:
+with open('gutenberg_metadata2.json') as ein:
 	metadata = json.load(ein)
 
 # load spacy English model
@@ -110,7 +110,7 @@ print('# files:', len(files))
 
 # for testing
 test_text = "Hello this is just some random text alrighty then let's get started. The sneaky fox was back at it again. The crafy and sneaky fox snuck into my room. The crafty, lithe, and sneaky fox is super cool. Of all the animals, his fox is the coolest one. His fox is sneaky. The fox is very crafty. The bad foxes are stupid. The fox was really really dumb. The foxes were somewhat smart and clever. Foxes are great! The sneakiest fox."
-test_text = "The sneaky fox's cubs. The sneaky foxes' cubs"
+# test_text = "The sneaky fox's cubs. The sneaky foxes' cubs"
 
 book_ids = []
 starts = []
@@ -135,7 +135,7 @@ for f in files:
 		ein = open(f, 'r')
 		text = ein.read().strip().lower()
 		ein.close()
-		# text = test_text
+		text = test_text
 	
 		# skip if fox doesn't appear in text at all
 		if 'fox' not in text: 
@@ -147,21 +147,20 @@ for f in files:
 		for i in range(len(matchers)):
 			matcher = matchers[i]
 			matches_found = matcher(text)
-			# print matches
-			for match_id, start, end in matches_found:
-				# get str representation 
-				string_id = nlp.vocab.strings[match_id]  
-				span = text[start:end]  # the matched span
-				print(match_id, string_id, start, end, i, span.text)
-				starts.append(start)
-				ends.append(end)
+			spans = [text[start:end] for _, start, end in matches_found]
+			for span in spacy.util.filter_spans(spans):
+				print((span.start, span.end, i, span.text))
+				starts.append(span.start)
+				ends.append(span.end)
 				match_types.append(i)
 				matches.append(span.text)
 				book_ids.append(f)
+				print('111111')
+			print('2222222')
 	except:
 		print(f, 'ERRORRRRRRR')
 	
-	# break
+	break
 	# if j > 7: break
 	# j += 1
 	# print(j)

@@ -6,6 +6,9 @@ from bs4 import BeautifulSoup
 from nltk import word_tokenize
 from itertools import chain
 from collections import Counter
+from nltk.stem import WordNetLemmatizer
+
+lem = WordNetLemmatizer()
 
 URL = 'http://mythfolklore.net/aesopica/oxford/index.htm'
 
@@ -46,8 +49,12 @@ df['link'] = ['http://mythfolklore.net/aesopica/oxford/'+x for x in df['link']]
 
 # get characters from titles
 stops = ['the', 'a', 'and', 'his', 'her', 'their', 'at', 'in', 'on', 'to', 'go', 'of', 'two', 'old', 'by', 'young', 'as', 'one', 'with', ',', "'", '’', 's', "'s", "’s"]
+replace_dict = {
+	'farmer': 'man',
+	'shepherd': 'man',
+}
 characters = [word_tokenize(x) for x in df['title']]
-characters = [[c for c in x if c not in stops] for x in characters]
+characters = [[replace_dict[lem.lemmatize(c)] if c in replace_dict else lem.lemmatize(c) for c in x if c not in stops] for x in characters]
 df['characters'] = characters
 
 ids = list(df['id'])
