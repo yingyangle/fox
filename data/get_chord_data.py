@@ -18,6 +18,8 @@ for n in range(N+1):
 	
 	for chara in characters:
 		other_charas = [x for x in characters if x != chara]
+		if 'fox' in other_charas:
+			other_charas = ['fox'] + [x for x in other_charas if x != 'fox']
 		for oc in other_charas:
 			interactions[chara][oc] += 1
 
@@ -34,12 +36,16 @@ interactions = {x:{y:interactions[x][y] for y in interactions[x] if y in charact
 print(interactions)
 
 matrix = []
+# characters = ['fox'] + [x for x in characters if x != 'fox']
 for chara in characters:
 	row = []
 	for oc in characters:
 		if oc not in interactions[chara]: row.append(0)
 		else: row.append(interactions[chara][oc])
 	matrix.append(row)
+# fox_row = matrix[0]
+# matrix[0] = matrix[3]
+# matrix[3] = fox_row
 print(matrix)
 
 chord_data = {

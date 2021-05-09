@@ -2,13 +2,23 @@
 	font-size: 18px;
 	color: white;
 	background-color: var(--my-orange);
-	border-radius: 6px;
+	background-color: #d3c1a4;
 	padding: 10px;
 	max-width: 260px;
+	height: auto;
+	border-radius: 10px;
+	/* border: 3px solid #bda886e0; */
+	/* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.345); */
+	pointer-events: none;
 	position: absolute;
-	z-index: 3;
+	z-index: 300;
 	opacity: 0;
 	transition: opacity 0.3s;
+	display:inline;
+}
+
+#tooltip.tooltip-hover {
+	opacity: 0.95;
 }
 
 /*** NAVIGATION BAR ***/
@@ -24,7 +34,10 @@
 }
 
 #navbar-items {
-	background-color: #fef9eeeb;
+	/* background-color: #fef9eeeb; */
+	/* background-color: rgba(255, 166, 0, 0.55); */
+	background-color: #b8986ae2;
+	background-color: #d3c1a4e2;
 	padding: 20px;
 	position: fixed;
 	top: 50px;
@@ -32,7 +45,6 @@
 	z-index: 20;
 	text-align: left;
 	visibility: visible;
-	opacity: 1;
 	transform: translate(0, 0);
 	transition: opacity 0.3s, visibility 0.3s, transform 0.4s ease;
 }
@@ -41,19 +53,25 @@
 	font-weight: 600;
 	position: relative;
 	display: inline-block;
-	color: #4d4b47;
+	color: var(--my-black);
 	font-family: var(--body-font);
 	font-weight: 100;
 	/* text-transform: uppercase; */
-	font-size: 24px;
-	line-height: 28px;
-	margin-bottom: 14px;
+	font-size: 20px;
+	line-height: 20px;
+	/* margin-bottom: 14px; */
+	transition: 0.2s;
+	padding: 6px;
 }
 
 #navbar-items a:hover {
 	text-decoration: none;
-	color: var(--my-orange-dark);
+	/* color: var(--my-orange-dark); */
+	/* background-color: rgba(247, 162, 3, 0.753); */
+	background-color: #d3c1a4e2;
+	background-color: #c7b495;
 	cursor: pointer;
+	transition: 0.2s;
 }
 
 /*** NAVBAR HAMBURGER BUTTON ***/
@@ -138,4 +156,54 @@ button.navbar-toggler {
 
 ::-webkit-scrollbar-corner {
 	background-color: transparent;
+}
+
+/* MAP */
+
+#map .bg {
+	display: block;
+	margin: 20px auto;
+	/* border: 1px solid #aaa; */
+	background: #dcb;
+}
+#map .graticule {
+	fill: none;
+	stroke: #888;
+	stroke-opacity: 0.25;
+	stroke-width: 0.5px;
+}
+#map .land {
+	fill: #faeada;
+	stroke: #654;
+	stroke-width: 0.5px;
+	filter: url("#seaShore");
+}
+#map .boundary {
+	fill: none;
+	stroke: #888;
+	stroke-width: 0.5px;
+	stroke-opacity: 0.5;
+}
+#map .leaders {
+	font-family: sans-serif;
+	font-size: 16px;
+	fill: #31558d;
+}
+#map .marker {
+	/* fill: #31558d; */
+	fill: var(--my-orange-dark);
+	fill-opacity: 0.75;
+	transition: all 0.2s ease-in-out;
+	z-index: 3;
+}
+#map .marker:hover {
+	/* fill: #8d3155; */
+	fill: #B88846;
+	fill-opacity: 1;
+	cursor: pointer;
+}
+#map .cc {
+	font-family: sans-serif;
+	font-size: 8px;
+	fill: none;
 }

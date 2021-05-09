@@ -6,30 +6,37 @@ var margin = {top: 60, right: 80, bottom: 60, left: 80},
 var data = [{
 		'name': 'crafty',
 		'value': 20,
+		'type': 'character',
 },
 	{
 		'name': 'sneaky',
 		'value': 12,
+		'type': 'character',
 },
 	{
 		'name': 'sly',
 		'value': 19,
+		'type': 'character',
 },
 	{
 		'name': 'tricky',
 		'value': 5,
+		'type': 'character',
 },
 	{
 		'name': 'lithe',
 		'value': 16,
+		'type': 'physical',
 },
 	{
 		'name': 'orange',
 		'value': 26,
+		'type': 'physical',
 },
 	{
 		'name': 'swift',
 		'value': 30,
+		'type': 'character',
 }]
 
 // sort bars based on value
@@ -82,13 +89,17 @@ function drawBar(data, element) {
 	// append rects
 	bars.append('rect')
 		.attr('class', 'bar')
+		.attr('x', 0)
 		.attr('y', function (d) {
 			return y(d.name)
 		})
-		.attr('height', y.rangeBand())
-		.attr('x', 0)
 		.attr('width', function (d) {
 			return x(d.value)
+		})
+		.attr('height', y.rangeBand())
+		.attr('fill', d => {
+			if (d.type == 'physical') return '#B88846'
+			else return 'orange'
 		})
 
 	// add a value label to the right of each bar

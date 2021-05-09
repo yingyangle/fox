@@ -5,8 +5,8 @@ var matrix, group_labels, interactions
 // var group_labels = ['dog', 'donkey', 'eagle', 'farmer', 'fox', 'hermes', 'lion', 'man', 'sheep', 'snake', 'wolf', 'zeus']
 var colors = ['#C4C4C4','#69B40F','#EC1D25','#C8125C','#008FC8','#10218B','#134B24','#737373', ]
 
-// // chord diagram matrix data
-// var matrix = [
+// chord diagram matrix data
+// matrix = [
 // 	[0, 2, 0, 0, 2, 1, 1, 3, 4, 0, 5, 0], 
 // 	[2, 0, 0, 0, 2, 0, 7, 2, 0, 0, 2, 0], 
 // 	[0, 0, 0, 2, 3, 0, 1, 0, 0, 1, 0, 0], 
@@ -33,11 +33,18 @@ d3.json('data/chord_data.json', function (error, data) {
 })
 
 function drawChord() {
-		
+
 	// color scale
 	var colorScale = d3.scale.ordinal()
 		.domain(d3.range(group_labels.length))
 		.range(colors)
+
+	function getColor(index1, index2) {
+		if (index1 == 4) return 'orange'
+		if (index2 == 4) return 'orange'
+		return colorScale(index1)
+		// return 'lightgray'
+	}
 		
 	// margins
 	var margin = {top: 30, right: 25, bottom: 20, left: 25},
@@ -74,8 +81,8 @@ function drawChord() {
 		
 	g.append('svg:path')
 		.attr('class', 'arc')
-		.style('stroke', function(d) { return colorScale(d.index); })
-		.style('fill', function(d) { return colorScale(d.index); })
+		.style('stroke', d => getColor(d.index))
+		.style('fill', d => getColor(d.index))
 		.attr('d', arc)
 
 	// node labels
@@ -96,8 +103,8 @@ function drawChord() {
 		.data(chord.chords)
 		.enter().append('svg:path')
 		.attr('class', 'chord')
-		.style('stroke', function(d) { return d3.rgb(colorScale(d.source.index)).darker(); })
-		.style('fill', function(d) { return colorScale(d.source.index); })
+		.style('stroke', function(d) { return d3.rgb(getColor(d.source.index, d.target.index)).darker(); })
+		.style('fill', d => getColor(d.source.index, d.target.index))
 		.style('fill-opacity', opacityValueBase)
 		.attr('d', d3.svg.chord().radius(innerRadius))
 	// show all arcs
@@ -130,21 +137,26 @@ function drawChord() {
 			fade(0.1, d, i)
 			var chara = group_labels[d.index]
 			var count = Object.values(interactions[chara]).reduce((a, b) => a + b, 0)
+			if (count == 1) {
+				var text = `${count} fable featuring ${chara}`
+			} else {
+				var text = `${count} fables featuring ${chara}`
+			}
 			$('#tooltip')
-				.css('opacity', 0.9)
+				.addClass('tooltip-hover')
 				.css('left', (event.pageX + 20) + 'px')
 				.css('top', (event.pageY + 20) + 'px')
-				.html(`${count} fables featuring ${chara}`)
+				.html(text)
 		})
 		.on('mousemove', d => {
 			$('#tooltip')
-				.css('opacity', 0.9)
+				.addClass('tooltip-hover')
 				.css('left', (event.pageX + 20) + 'px')
 				.css('top', (event.pageY + 20) + 'px')
 		})
 		.on('mouseout', (d,i) => {
 			fade(opacityValueBase, d, i)
-			$('#tooltip').css('opacity', 0)
+			$('#tooltip').removeClass('tooltip-hover')
 		})
 	// hover fade effect for each path link
 	d3.selectAll('path.chord')
@@ -153,21 +165,26 @@ function drawChord() {
 			var source = group_labels[d.source.index]
 			var target = group_labels[d.target.index]
 			var count = matrix[d.source.index][d.target.index]
+			if (count == 1) {
+				var text = `${count} fable featuring ${source} and ${target}`
+			} else {
+				var text = `${count} fables featuring ${source} and ${target}`
+			}
 			$('#tooltip')
-				.css('opacity', 0.9)
+				.addClass('tooltip-hover')
 				.css('left', (event.pageX + 20) + 'px')
 				.css('top', (event.pageY + 20) + 'px')
-				.html(`${count} fables featuring ${source} and ${target}`)
+				.html(text)
 		})
 		.on('mousemove', d => {
 			$('#tooltip')
-				.css('opacity', 0.9)
+				.addClass('tooltip-hover')
 				.css('left', (event.pageX + 20) + 'px')
 				.css('top', (event.pageY + 20) + 'px')
 		})
 		.on('mouseout', (d,i) => {
 			fadePath(opacityValueBase, d, i)
-			$('#tooltip').css('opacity', 0)
+			$('#tooltip').removeClass('tooltip-hover')
 		})
 
 	/*//////////////////////////////////////////////////////////
