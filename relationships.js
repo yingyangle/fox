@@ -11,7 +11,14 @@ d3v5.csv('data/relationships.csv', d3.autoType).then(data => {
 		$('#relationships-title').html(animal)
 		getCitations() // add citations functionality
 	})
-})
 
+	// initialize with bird as the animal
+	var animal = 'Bird'
+	var desc = relationships_info.filter(x => x.animal == animal)[0].description
+	$('#relationships-text').html(desc)
+	$('#relationships-title').html(animal)
+	getCitations() // add citations functionality
+
+})
 
 

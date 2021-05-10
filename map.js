@@ -134,9 +134,9 @@ var svg = d3.select('#map').append('svg')
 					adjustInfoboxHeight()
 				})
 				.transition()
-				.duration(800)
+				.duration(500)
 				.ease('elastic')
-				.attr('transform', 'translate(' + x + ',' + y + ') scale(.75)')
+				.attr('transform', 'translate(' + x + ',' + y + ') scale(.7)')
 				
 				
 			
@@ -179,13 +179,15 @@ function getCountries() {
 			{
 				'geometry': {
 					'coordinates': [
-						'55.30472',
-						'25.25817'
+						// '23.321426',
+						// '38.321608'
+						'23.598633',
+						'38.23818'
 					],
 					'properties': {
 						'value': '1',
-						'tooltip': 'Marker #1',
-						'infobox': 'Nah man Marker #1 is where its act',
+						'tooltip': 'Thebes - Teumessian Fox',
+						'infobox': '<p>The Teumessian Fox was sent to ravage the landscape of Thebes and it was fated to never be caught. It was sent either by Dionysus as a punishment for failing to recognize him as a divinity, or as a punishment for the death of the Sphinx. When King Creon ordered Amphitryon to deal with the fox, he sent the dog Laelaps to catch it since this dog was fated to catch everything it ever caught. In order to resolve this paradox, Zeus either turned them both to stone or sent them to the stars.</p><p>The swiftness of the Teumessian Fox and its characteristic of being uncatchable seems to reflect many of the ideas of the fox as a swift-footed and elusive creature, always managing to slip out of traps and escape. We also see the association between foxes and causing damage here, as the Teumessian Fox brought damage to the land of Thebes, just as Samson\'s foxes brought damage to the Philistines and the burning box set fire to the fields of Cerealia.</p>',
 					}
 				},
 			},
@@ -193,16 +195,158 @@ function getCountries() {
 				'geometry': {
 					'type': 'Point',
 					'coordinates': [
-						'24',
-						'-31'
+						'34.811615',
+						'31.182882'
 					],
 					'properties': {
 						'value': '1',
-						'tooltip': 'Marker #2',
-						'infobox': 'Here is some information about Marker #2. It is a very cool marker. Hell yea bro.',
+						'tooltip': 'Israel - Samson and the 300 Foxes',
+						'infobox': '<p>In Judges 15, Samson is described gathering 300 foxes and tying them together by their tails and setting them on fire with torches. He then let the foxes ravage the landscape of the Philistines.</p><p>This story reflects a common association of foxes with fire and with causing damage. We also see foxes causing damage with fire in the ritual at the festival of Ceres in Cerealia.</p>',
 					}
 				}
-			}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						'2.462247',
+						'46.623974'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'Europe - Reynard the Fox',
+						'infobox': '<p>Perhaps one of the most famous foxes from literature, Reynard the Fox was a literary cycle of medieval European fable. Reynard is cunning and unscrupulous criminal who plays cruel tricks on others for his personal gain.</p><p>In the Reynard cycle we see a lot of the common associations of foxes we still hold today, such as their cunning and crafty nature.</p>',
+					}
+				}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						'12.483072',
+						'41.893344'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'Rome - Cerealia',
+						'infobox': '<p>In Rome during the Cerealia festival which celebrates Ceres the goddess of agriculture, there\'s a ritual where a fox is bound and set on fire with a torch to be burned alive. This tradition supposedly comes from the story of a boy who once set a fox on fire. When the fox escaped, it burned the fields and caused great damage. Because of this, the fox is burned at Cerealia to repay for its past crimes.</p><p>This story reflects a common association of foxes with fire and with causing damage. We also see foxes causing damage with fire in the story of Samson and the 300 burning foxes.</p>',
+					}
+				}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						// '22.494341',
+						// '38.478912'
+						'22.148438',
+						'38.668356'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'Delphi - Aesop\'s Fables',
+						'infobox': '<p>The fox is one of the most frequent characters to appear in Aesop\'s fables, and the fable of the Fox and the Grapes is among the most famous fables from this tradition.</p><p>The fox in Aesop is always female and is characterized with the typical crafty and cunning wit we still associate with the fox today..</p>',
+					}
+				}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						'29.894379',
+						'31.199004'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'Alexandria - Physiologus',
+						'infobox': '<p>The Physiologus bestiary contains descriptions of the fox which condemn the animal as a parallel of the devil in its duplicitous way with words.</p><p></p>',
+					}
+				}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						'100',
+						'33'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'China - Huli Jing',
+						'infobox': '<p>The huli jing is one of the most prominent creatures of Chinese mythology, and is described as a fox spirit who can transform into a beautiful woman.</p><p>In stories of the huli jing we see displayed many of the erotic themes and connotations of the fox.</p>',
+					}
+				}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						'138.192093',
+						'36.652302'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'Japan - Kitsune',
+						'infobox': '<p>The kitsune is featured prominently in Japanese mythology, and is described as a fox spirit who can transform into a beautiful woman.</p><p>In stories of the kitsune we see displayed many of the erotic themes and connotations of the fox.</p>',
+					}
+				}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						'127.500603',
+						'36.635601'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'Korea - Kumiho',
+						'infobox': '<p>The kumiho in Korean mythology is a fox spirit who can transform into a beautiful woman.</p><p>In stories of the kumiho we see displayed many of the erotic themes and connotations of the fox.</p>',
+					}
+				}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						'94.21875',
+						'65.07213'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'Russia - Kuma Lisa',
+						'infobox': '<p>The Kuma Lisa in Russian and Bulgarian folklore is a fox who often plays the role of the trickster archetype. She is often paired with her counterpart, Kumcho Vulcho, a wolf who is often the victim to her tricks.</p><p>In the Kuma Lisa we can see many of the typical charactersitics of the fox, such as its crafty and tricky nature. The pairing of the Kuma lisa with her frequent victim the Kumcho Vulcho is also reminiscent of the frequent pairing of the fox with the wolf in Aesopian fable and in the Reynard cycle.</p>',
+					}
+				}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						'26.287458',
+						'64.524025'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'Finland - Firefox',
+						'infobox': '<p>In Finnish mythology, the firefox (also called the tulikettu) is a fox whose tail is alight with fire. The firefox is said to be responsible for creating the aurora borealis as is leaps about in the night sky.</p><p>The story of the firefox contains the frequent association of the fox with fire, however in this case the fire is not damaging as it often is in other stories, but rather beautiful and completely peaceful.</p>',
+					}
+				}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						'-3.6522',
+						'16.819201'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'Dogon people - The Pale Fox',
+						'infobox': '<p>In the culture of the Dogon people who live around Mali and other countries in western Africa, the pale fox is said to be the cause of disorder and chaos.</p><p>This depiction of the fox is consistent with other accounts of the fox bringing about damage and being associated with sin and evil.</p>',
+					}
+				}
+			},
 		]
 	}
 }

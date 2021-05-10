@@ -104,6 +104,13 @@ a:hover {
 	border-color: none;
 }
 
+textarea {
+	resize: none;
+	border-radius: 14px;
+	padding: 10px;
+	background-color: transparent;
+}
+
 .noscroll { 
 	overflow: hidden;
 }
@@ -182,6 +189,10 @@ a:hover {
 text {
 	color: var(--my-black);
 	fill: var(--my-black);
+}
+
+#bubble.viz {
+	margin: 0 260px;
 }
 
 .barchart rect {
@@ -279,16 +290,27 @@ text {
 	background-color: rgba(255, 255, 255, 0.67);
 	/* border: 1px solid tan; */
 	border: 1px solid #745a36;
-	padding: 20px;
+	padding: 18px;
 	border-radius: 20px;
-	height: 200px;
+	max-height: 400px;
 	transition: all linear 0.2s;
-	/* overflow: scroll; */
+	width: 100%;
 }
 
 #map-infobox-title {
 	font-weight: bold;
 	font-size: 24px;
+}
+
+#map-infobox-text {
+	max-height: 300px;
+	overflow: scroll;
+}
+
+#map-infobox p {
+	font-size: 16px;
+	margin: 4px;
+	margin-top: 12px;
 }
 
 
