@@ -42,7 +42,9 @@ html {
 
 body, #overlay {
 	color: var(--my-black);
-	background-color: var(--my-white);
+	/* background-color: var(--my-white); */
+	background-color: #f9f4ee;
+	/* background-color: #f9f3ed; */
 	font-family: var(--body-font), sans-serif;
 	text-align: center;
 }
@@ -60,7 +62,10 @@ h3 {
 }
 
 h5 {
-	font-size: 26px;
+	font-size: 28px;
+	margin-top: 30px;
+	/* text-decoration: underline; */
+	/* font-weight: bold; */
 	/* font-family: var(--heading-font); */
 }
 
@@ -77,10 +82,11 @@ a {
 	/* line-height: 40px; */
 }
 
-a:hover {
+a:hover, a.text-citation:hover {
 	color: var(--my-blue);
 	color: var(--my-orange); 
 	cursor: pointer;
+	text-decoration: underline;
 }
 
 .btn {
@@ -137,9 +143,19 @@ textarea {
 	height: 20px;
 }
 
+#title-box {
+	/* margin: 10px 100px; */
+	margin: auto;
+	max-width: 900px;
+}
+
 #title {
-	font-size: 56px;
+	font-size: 70px;
 	font-family: var(--heading-font);
+}
+
+#subtitle {
+	margin: 0;
 }
 
 #container > .viz {
@@ -235,6 +251,7 @@ text {
 
 .relationships-animal img {
 	margin-bottom: 4px;
+	opacity: 0.8;
 }
 
 .relationships-animal div {
@@ -377,16 +394,19 @@ a.citation {
 	color: var(--my-tan); 
 }
 
-a.citation:hover {
+a.citation:not(.text-citation):hover {
 	background-color: #b8894658;
 	color: var(--my-tan); 
 	text-decoration: none;
 }
 
-/* #footer {
-	position: absolute;
-	bottom: 10px;
-} */
+#footer {
+	font-size: 20px;
+}
+
+#footer p {
+	margin-bottom: 4px;
+}
 
 @media only screen and (max-width: 600px) {
 	
