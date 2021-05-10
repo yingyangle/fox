@@ -128,7 +128,7 @@ function createBubble() {
 			.attr('r', d => d.radius)
 			.attr('fill', d => {
 				if (d.type == 'physical') return '#B88846'
-				else return 'orange'
+				else return '#EEA849'
 			})
 			.attr('opacity', 0.6)
 			.call(drag(force))

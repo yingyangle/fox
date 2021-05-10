@@ -1,13 +1,12 @@
 #tooltip {
 	font-size: 18px;
 	color: white;
-	background-color: var(--my-orange);
-	background-color: #d3c1a4;
+	background-color: var(--my-tan-light);
+	/* background-color: #d3c1a4; */
 	padding: 10px;
 	max-width: 260px;
 	height: auto;
 	border-radius: 10px;
-	/* border: 3px solid #bda886e0; */
 	/* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.345); */
 	pointer-events: none;
 	position: absolute;

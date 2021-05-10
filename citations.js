@@ -1,42 +1,74 @@
-var sources_dict = {
-	'aristotle-gen': 1,
-}
+var sources_dict = {} // dict mapping source code to id order
+var sources_elements // list of li elements in sources list
+var save_spot // location of clicked citation
 
-var sources = $('#sources-list li')
-console.log(sources)
+// populate sources list
+d3v5.csv('data/citations.csv', d3.autoType).then(data => {
+	// load and sort data
+	var sources_data = data
+	sources_data.sort((a, b) => (a.citation > b.citation) ? 1 : -1)
+	console.log(sources_data)
 
-$('.citation').each(function(d) {
-	// get reference number
-	var source = $(this).attr('data-source')
-	if (!(source in sources_dict)) source = 3
-	else source = sources_dict[source]
-	$(this).html(source)
-	// hover text
-	$(this).on('mouseover mousemove', () => {
-		var tooltip_text = $(this).attr('data-tooltip')
-		console.log(tooltip_text)
-		$('#tooltip').html(tooltip_text)
-	})
-
-	// find source in bibliography
-	if ($(this).hasClass('sources-citation')) {
-		$(this).on('click', () => {
-			source = parseInt(source)
-			// highlight selected source
-			var ref = sources[source-1]
-			$(ref).addClass('source-highlighted')
-			console.log(ref)
-
-			// scroll to selected source
-			$('html, body').animate({
-				scrollTop: $(ref).offset().top
-			}, 0)
-		})
+	// for each source
+	for (var i = 0; i < sources_data.length; i++) {
+		// add to sources list
+		var source = sources_data[i]
+		$('#sources-list').append(`<li data-source="${source.code}">${source.citation}</li>`)
+		// add to sources_dict
+		sources_dict[source.code] = parseInt(i)
 	}
+
+	getCitations()
+	sources_elements = $('#sources-list li')
 })
 
-// citation tooltip hover
-$('.citation')
+function getCitations() {
+	$('.citation').each(function(d) {
+		// get reference number
+		var source = $(this).attr('data-source')
+		if (!(source in sources_dict)) source = 999
+		else source = sources_dict[source]
+		$(this).html(source+1)
+		// hover text
+		$(this).on('mouseover mousemove', () => {
+			var tooltip_text = $(this).attr('data-tooltip')
+			console.log(tooltip_text)
+			$('#tooltip').html(tooltip_text)
+		})
+
+		// find source in bibliography
+		if ($(this).hasClass('sources-citation')) {
+			$(this).on('click', () => {
+				// save this spot
+				save_spot = this
+				// highlight selected source
+				source = parseInt(source)
+				var ref = sources_elements[source]
+				$(ref).addClass('source-highlighted')
+				console.log(ref)
+
+				// scroll to selected source
+				$('html, body').animate({
+					scrollTop: $(ref).offset().top
+				}, 0)
+
+				// button to scroll back up to current anchor position
+				$('#back-to-text').css('display', 'block') // show button
+				$('#back-to-text').on('click', () => {
+					var ref = $(save_spot)
+					// scroll to position
+					$('html, body').animate({
+						scrollTop: $(ref).offset().top
+					}, 0)
+					// hide button again
+					$('#back-to-text').css('display', 'none')
+				})
+			})
+		}
+	})
+
+	// citation tooltip hover
+	$('.citation')
 	.on('mouseover mousemove', () => {
 		$('#tooltip')
 			.addClass('tooltip-hover')
@@ -48,7 +80,11 @@ $('.citation')
 			.removeClass('tooltip-hover')
 	})
 
-// un-highlight selected source
-$('#sources-list').on('click', function() {
-	sources.removeClass('source-highlighted')
-})
+	// un-highlight selected source if click anywhere outside the highlighted source
+	$(document).click(function (event) {
+		var clickover = $(event.target)
+		if (!clickover.hasClass('source-highlighted') && !clickover.hasClass('citation')) {
+			sources_elements.removeClass('source-highlighted')
+		}
+	})
+}

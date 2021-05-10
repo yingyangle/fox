@@ -40,10 +40,10 @@ function drawChord() {
 		.range(colors)
 
 	function getColor(index1, index2) {
-		if (index1 == 4) return 'orange'
-		if (index2 == 4) return 'orange'
+		if (index1 == 4) return '#EEA849' // orange
+		if (index2 == 4) return '#EEA849' // orange
+		return '#ceae81' // tan-light
 		return colorScale(index1)
-		// return 'lightgray'
 	}
 		
 	// margins

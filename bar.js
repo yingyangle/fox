@@ -98,8 +98,8 @@ function drawBar(data, element) {
 		})
 		.attr('height', y.rangeBand())
 		.attr('fill', d => {
-			if (d.type == 'physical') return '#B88846'
-			else return 'orange'
+			if (d.type == 'physical') return '#B88846' // tan-light
+			else return '#EEA849' // orange
 		})
 
 	// add a value label to the right of each bar
