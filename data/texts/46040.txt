@@ -58,7 +58,7 @@ http://www.pgdpcanada.net
   By the Marshes of Minas                 1.50
   Cameron of Lochiel (_translated_)       1.50
   The Young Acadian                        .50
-  The Cruise of the Yacht “Dido”           .50
+  The Cruise of the Yacht “Dido"           .50
   The Haunter of the Pine Gloom            .50
   The Lord of the Air                      .50
   The King of the Mamozekel                .50
@@ -162,61 +162,61 @@ http://www.pgdpcanada.net
 
                                                                      PAGE
   The Animal Story                                                     13
-      “The sniffings of the baffled bear or tiger”                     17
-      “The inscrutable eyes of all the cats”                           25
+      “The sniffings of the baffled bear or tiger"                     17
+      “The inscrutable eyes of all the cats"                           25
   The Moonlight Trails                                                 31
-      “All the players were motionless, with ears one way”             37
-      “It was beyond his reach”                                        49
+      “All the players were motionless, with ears one way"             37
+      “It was beyond his reach"                                        49
   The Lord of the Air                                                  53
-      “He saw his wide-winged mate, too, leave the nest”               57
-      “Holding the fish firmly in the clutch of one great talon”       65
-      “Helplessly intertangled in the meshes”                          79
-      “They flocked blackly about with vituperative malice”            83
+      “He saw his wide-winged mate, too, leave the nest"               57
+      “Holding the fish firmly in the clutch of one great talon"       65
+      “Helplessly intertangled in the meshes"                          79
+      “They flocked blackly about with vituperative malice"            83
   Wild Motherhood                                                      91
-      “Led his herd off northward”                                     95
-      “Stood for a moment to sniff the air”                            99
-      “Around its rim circled the wary mother”                        105
+      “Led his herd off northward"                                     95
+      “Stood for a moment to sniff the air"                            99
+      “Around its rim circled the wary mother"                        105
   The Homesickness of Kehonka                                         115
       “He would stand motionless, his compact, glossy head high in
-          air”                                                        125
-      “Fell with a great splash into the channel of the Tantramar”    133
-      “The discourager of quests darted stealthily forth”             137
+          air"                                                        125
+      “Fell with a great splash into the channel of the Tantramar"    133
+      “The discourager of quests darted stealthily forth"             137
   Savoury Meats                                                       141
-      “Two green eyes, close to the ground”                           153
+      “Two green eyes, close to the ground"                           153
   The Boy and Hushwing                                                157
-      “He struck the empty air”                                       165
+      “He struck the empty air"                                       165
       “Settled himself, much disconcerted, on the back of an old
-          haircloth sofa”                                             171
+          haircloth sofa"                                             171
   A Treason of Nature                                                 179
-      “He gave answer at once to the summons”                         187
-      “Started in mad haste down the shore”                           189
+      “He gave answer at once to the summons"                         187
+      “Started in mad haste down the shore"                           189
       “He dug his claws deeper into the bark, and bared his fangs
-          thirstily”                                                  191
+          thirstily"                                                  191
   The Haunter of the Pine Gloom                                       197
-      “The big beast little imagined himself observed”                203
-      “A great lynx landed on the log”                                207
+      “The big beast little imagined himself observed"                203
+      “A great lynx landed on the log"                                207
       “Presently the lucifee arose and began creeping stealthily
-          closer”                                                     213
-      “A silent gray thunderbolt fell upon him”                       217
-      “Yawned hugely, and stretched herself like a cat”               223
-      “Mounted the carcass with an air of lordship”                   229
+          closer"                                                     213
+      “A silent gray thunderbolt fell upon him"                       217
+      “Yawned hugely, and stretched herself like a cat"               223
+      “Mounted the carcass with an air of lordship"                   229
   The Watchers of the Camp-Fire                                       239
       “His big, spreading paws carried him over its surface as if he
-          had been shod with snow-shoes”                              243
-      “He pushed the ball again, very, very delicately”               249
-      “Stole noiselessly toward the shining lovely thing”             259
+          had been shod with snow-shoes"                              243
+      “He pushed the ball again, very, very delicately"               249
+      “Stole noiselessly toward the shining lovely thing"             259
   When Twilight Falls on the Stump Lots                               271
-      “She struggled straight toward the den that held her young”     281
+      “She struggled straight toward the den that held her young"     281
   The King of the Mamozekel                                           285
-      “The calf stood close by, watching with interest”               293
-      “The mother mallard would float amid her brood”                 301
-      “But they fell short of their intended mark”                    309
-      “Thick piled the snows about the little herd”                   319
-      “Was off through the underbrush in ignominious flight”          335
-      “It was fear itself that he was wiping out”                     343
+      “The calf stood close by, watching with interest"               293
+      “The mother mallard would float amid her brood"                 301
+      “But they fell short of their intended mark"                    309
+      “Thick piled the snows about the little herd"                   319
+      “Was off through the underbrush in ignominious flight"          335
+      “It was fear itself that he was wiping out"                     343
   In Panoply of Spears                                                347
-      “The bear eyed him for some moments”                            353
-      “A weasel glided noiselessly up to the door of the den”         369
+      “The bear eyed him for some moments"                            353
+      “A weasel glided noiselessly up to the door of the den"         369
 
   [Illustration: Eagle]
 
@@ -246,7 +246,7 @@ the kindred art of telling a story, they supplied his earliest themes;
 and they suggested the hieroglyphs by means of which, on carved bone or
 painted rock, he first gave his narrative a form to outlast the spoken
 breath. We may not unreasonably infer that the first animal story—the
-remote but authentic ancestor of “Mowgli” and “Lobo” and “Krag”—was a
+remote but authentic ancestor of “Mowgli" and “Lobo" and “Krag"—was a
 story of some successful hunt, when success meant life to the starving
 family; or of some desperate escape, when the truth of the narrative was
 attested, to the hearers squatted trembling about their fire, by the
@@ -267,7 +267,7 @@ and in this way the ingenuity of the first author enabled him to avoid a
 perilous unpopularity among those whose weaknesses and defects his art
 held up to the scorn of all the caves.
 
-[Illustration: “THE SNIFFINGS OF THE BAFFLED BEAR OR TIGER.”]
+[Illustration: “THE SNIFFINGS OF THE BAFFLED BEAR OR TIGER."]
 
 These earliest observers of animal life were compelled by the necessities
 of the case to observe truly, if not deeply. Pitting their wits against
@@ -283,7 +283,7 @@ the creatures themselves came to be regarded, for the purposes of
 literature, as types or symbols merely,—except in those cases, equally
 obstructive to exact observation, where they were revered as temporary
 tenements of the spirits of departed kinsfolk. The characters in that
-great beast-epic of the middle ages, “Reynard the Fox,” though far more
+great beast-epic of the middle ages, “Reynard the Fox," though far more
 elaborately limned than those which play their succinct rôles in the
 fables of Æsop, are at the same time in their elaboration far more alien
 to the truths of wild nature. Reynard, Isegrim, Bruin, and Greybeard have
@@ -339,7 +339,7 @@ parrots, elephants—were observing, with the wonder and interest of
 discoverers, the astonishing fashion in which the mere instincts of these
 so-called irrational creatures were able to simulate the operations of
 reason. The results of this observation were written down, till
-“anecdotes of animals” came to form a not inconsiderable body of
+“anecdotes of animals" came to form a not inconsiderable body of
 literature. The drift of all these data was overwhelmingly toward one
 conclusion. The mental processes of the animals observed were seen to be
 far more complex than the observers had supposed. Where instinct was
@@ -381,13 +381,13 @@ eyes of all the cats, or sit aloof in the gaze of the hawk and the eagle.
 The animal story at its highest point of development is a psychological
 romance constructed on a framework of natural science.
 
-[Illustration: “THE INSCRUTABLE EYES OF ALL THE CATS.”]
+[Illustration: “THE INSCRUTABLE EYES OF ALL THE CATS."]
 
 The real psychology of the animals, so far as we are able to grope our
 way toward it by deduction and induction combined, is a very different
 thing from the psychology of certain stories of animals which paved the
-way for the present vogue. Of these, such books as “Beautiful Joe” and
-“Black Beauty” are deservedly conspicuous examples. It is no detraction
+way for the present vogue. Of these, such books as “Beautiful Joe" and
+“Black Beauty" are deservedly conspicuous examples. It is no detraction
 from the merit of these books, which have done great service in awakening
 a sympathetic understanding of the animals and sharpening our sense of
 kinship with all that breathe, to say that their psychology is human.
@@ -396,7 +396,7 @@ feel under like conditions. This marks the stage which these works occupy
 in the development of the animal story.
 
 The next stage must be regarded as, in literature, a climax indeed, but
-not the climax in this genre. I refer to the “Mowgli” stories of Mr.
+not the climax in this genre. I refer to the “Mowgli" stories of Mr.
 Kipling. In these tales the animals are frankly humanised. Their
 individualisation is distinctly human, as are also their mental and
 emotional processes, and their highly elaborate powers of expression.
@@ -408,13 +408,13 @@ and their constructive imagination are far beyond anything which present
 knowledge justifies us in ascribing to the inarticulate kindreds. To say
 this is in no way to depreciate such work, but merely to classify it.
 There are stories being written now which, for interest and artistic
-value, are not to be mentioned in the same breath with the “Mowgli”
+value, are not to be mentioned in the same breath with the “Mowgli"
 tales, but which nevertheless occupy a more advanced stage in the
 evolution of this genre.
 
 It seems to me fairly safe to say that this evolution is not likely to go
 beyond the point to which it has been carried to-day. In such a story,
-for instance, as that of “Krag, the Kootenay Ram,” by Mr. Ernest Seton,
+for instance, as that of “Krag, the Kootenay Ram," by Mr. Ernest Seton,
 the interest centres about the personality, individuality, mentality, of
 an animal, as well as its purely physical characteristics. The field of
 animal psychology so admirably opened is an inexhaustible world of
@@ -431,7 +431,7 @@ tenement of self of which we do well to grow weary. It helps us to return
 to nature, without requiring that we at the same time return to
 barbarism. It leads us back to the old kinship of earth, without asking
 us to relinquish by way of toll any part of the wisdom of the ages, any
-fine essential of the “large result of time.” The clear and candid life
+fine essential of the “large result of time." The clear and candid life
 to which it re-initiates us, far behind though it lies in the long upward
 march of being, holds for us this quality. It has ever the more
 significance, it has ever the richer gift of refreshment and renewal, the
@@ -517,7 +517,7 @@ moment the players were gone, vanishing to the east and west and south,
 all at once, as if blown off by a mighty breath. Only toward the north
 side of the open there went not one.
 
-[Illustration: “ALL THE PLAYERS WERE MOTIONLESS, WITH EARS ONE WAY.”]
+[Illustration: “ALL THE PLAYERS WERE MOTIONLESS, WITH EARS ONE WAY."]
 
 Nevertheless, the moon, peering down with sharp scrutiny into the
 unshadowed northern fringes of the open, failed to spy out any lurking
@@ -592,7 +592,7 @@ Andy with the barn work, the man said:
 “It’s about full moon now, and right handy weather for rabbit-snarin’.
 What say if we git off to the woods this afternoon, if your father’ll let
 us, an’ set some snares fer to-night, afore a new snow comes and spiles
-the tracks?”
+the tracks?"
 
 The silent and mysterious winter woods, the shining spaces of the snow
 marked here and there with strange footprints leading to unknown lairs,
@@ -631,7 +631,7 @@ indomitable weasel, the scourge of all the lesser forest kin.
 
 The weasel’s trail led them presently to another track, consisting of
 those triplicate clusters of prints, dropped lightly and far apart; and
-Andy said, “Rabbits! and the weasel’s after them!” The words made a swift
+Andy said, “Rabbits! and the weasel’s after them!" The words made a swift
 picture in the boy’s imagination; and he never forgot the trail of the
 wild rabbit or the trail of the weasel.
 
@@ -648,7 +648,7 @@ man’s, was revealed a formal and intricate pattern in the tangled
 markings. To Andy it was incomprehensible; but he saw at once that in the
 ways leading to the open it would be well to plant the snares. The boy,
 on the other hand, had a keener insight, and exclaimed at once, “What fun
-they must have been having!” But his sympathy was asleep. Nothing, at
+they must have been having!" But his sympathy was asleep. Nothing, at
 that moment, could wake it up so far as to make him realise the part he
 was about to play toward those childlike revellers of the moonlight
 trails.
@@ -728,7 +728,7 @@ easy leap the fox seized the dangling body, dragged it down, gnawed off
 its head to release the noose, and bore away the spoils in triumph,
 conscious of having scored against his human rivals in the hunt.
 
-[Illustration: “IT WAS BEYOND HIS REACH.”]
+[Illustration: “IT WAS BEYOND HIS REACH."]
 
 Late in the morning, when the sun was pale in a sky that threatened
 snowfall, the boy and Andy came, thrilling with anticipation, to see what
@@ -743,7 +743,7 @@ his trophy over his shoulder with the air of a veteran (as he had seen it
 done in pictures), hastened on to the third to see why it had failed him.
 To his untrained eye the trampled snow, the torn head, and the blood
 spots told the story in part; and as he looked a sense of the tragedy of
-it began to stir achingly at the roots of his heart. “A fox,” remarked
+it began to stir achingly at the roots of his heart. “A fox," remarked
 Andy, in a matter-of-fact voice, coming up at the moment, with his prize
 hanging rigidly, by the pathetically babyish hind legs, from the grasp of
 his mittened fist.
@@ -757,7 +757,7 @@ and stared at it for some moments. Then two big tears rolled over his
 ruddy cheeks. With an angry exclamation he flung the dead rabbit down on
 the snow and ran to break up the snares.
 
-“We won’t snare any more rabbits, Andy,” he cried, averting his face, and
+“We won’t snare any more rabbits, Andy," he cried, averting his face, and
 starting homeward with a dogged set to his shoulders. Andy, picking up
 the rejected spoils with a grin that was half bewilderment, half
 indulgent comprehension, philosophically followed the penitent.
@@ -802,7 +802,7 @@ wide-winged mate, too, leave the nest, and beat swiftly off toward the
 Tuladi Lakes, her own special hunting-grounds. Then he dropped quietly to
 his blanched pine-top on the leaning side of the summit.
 
-[Illustration: “HE SAW HIS WIDE-WINGED MATE, TOO, LEAVE THE NEST.”]
+[Illustration: “HE SAW HIS WIDE-WINGED MATE, TOO, LEAVE THE NEST."]
 
 Erect and moveless he sat in the growing light, his snowy, flat-crowned
 head thrust a little forward, consciously lord of the air. His powerful
@@ -899,7 +899,7 @@ wings closed, and he shot downward like a javelin. The still waters of
 the lake were broken with a violent splash, and the fish-hawk’s body for
 a moment almost disappeared. Then, with a struggle and a heavy flapping
 of wings, the daring fisher arose, grasping in his victorious claws a
-large “togue” or gray lake trout. He rose till he was well above the
+large “togue" or gray lake trout. He rose till he was well above the
 tree-tops of the near-by shore, and then headed for his nest in the cedar
 swamp.
 
@@ -929,7 +929,7 @@ requirements of himself and his nestlings. But it was necessary that
 there should be no foolish misunderstanding on the subject.
 
 [Illustration: “HOLDING THE FISH FIRMLY IN THE CLUTCH OF ONE GREAT
-TALON.”]
+TALON."]
 
 The eagle swung away, wheeled sharply with an ominous, harsh rustling of
 stiffened feathers, and then came at the hawk with a yelp and a sudden
@@ -1171,7 +1171,7 @@ accepting the structure as a part of the established order of things. He
 hopped with undignified alacrity right under the net, clutched a large
 whitefish, and perched himself on the stone to enjoy his meal.
 
-[Illustration: “HELPLESSLY INTERTANGLED IN THE MESHES.”]
+[Illustration: “HELPLESSLY INTERTANGLED IN THE MESHES."]
 
 At that instant he felt, rather than saw, the shadow of a movement in the
 thicket. Or rather, perhaps, some inward, unaccredited guardian signalled
@@ -1213,7 +1213,7 @@ must be fed. With the long limp neck and slender legs of the heron
 trailing from her talons, she flew away to the eyrie; and she came no
 more to the Squatooks.
 
-[Illustration: “THEY FLOCKED BLACKLY ABOUT WITH VITUPERATIVE MALICE.”]
+[Illustration: “THEY FLOCKED BLACKLY ABOUT WITH VITUPERATIVE MALICE."]
 
 The knowledge of all the woodfolk around the lakes had been flashed in
 upon her, and she knew some mysterious doom had fallen upon her mate.
@@ -1288,15 +1288,15 @@ instinctive, convulsive spasm within the wrapping, and the bundle was
 still, the great bird being too proud as well as too wise to waste force
 in a vain struggle.
 
-“Seems pretty tame already,” remarked the stranger, in a tone of
+“Seems pretty tame already," remarked the stranger, in a tone of
 satisfaction.
 
-“Tame!” exclaimed the countryman. “Them’s the kind as don’t tame. I’ve
+“Tame!" exclaimed the countryman. “Them’s the kind as don’t tame. I’ve
 give up trying to tame him. Ef you keep him, an’ feed him, an’ coax him
 for ten year, he’ll be as wild as the day Gabe snared him up on Big
-Squatook.”
+Squatook."
 
-“We’ll see,” said the stranger, who had confidence in his knowledge of
+“We’ll see," said the stranger, who had confidence in his knowledge of
 the wild folk.
 
 Seating himself on a broken-backed chair just outside the shadow of the
@@ -1376,7 +1376,7 @@ deep snow, as he knew, is the opportunity of the wolf and the hunter. But
 in this case the herd had no choice. It was simply take the risk or
 starve.
 
-[Illustration: “LED HIS HERD OFF NORTHWARD.”]
+[Illustration: “LED HIS HERD OFF NORTHWARD."]
 
 That same night, when the moon was rising round and white behind the
 fir-tops, the tall bull breasted and trod down the snowy barriers, and
@@ -1430,7 +1430,7 @@ ceased. And in this position the two remained almost motionless for an
 hour, under the white, unfriendly moon. The herd had gone on without
 them.
 
-[Illustration: “STOOD FOR A MOMENT TO SNIFF THE AIR.”]
+[Illustration: “STOOD FOR A MOMENT TO SNIFF THE AIR."]
 
 
                                   II.
@@ -1512,7 +1512,7 @@ the situation. Everything had turned out most fortunately for his
 hunting, and food would no longer be scarce in the cave of the painted
 rocks.
 
-[Illustration: “AROUND ITS RIM CIRCLED THE WARY MOTHER.”]
+[Illustration: “AROUND ITS RIM CIRCLED THE WARY MOTHER."]
 
 
                                   III.
@@ -1536,8 +1536,8 @@ yellow-haired, round-faced boy slept, with the chubby sprawling legs and
 arms of perfect security. The lad’s face looked pale to his troubled
 eyes.
 
-“It’s fresh meat they want, the both of ’em,” he muttered to himself.
-“They can’t live and thrive on pork an’ molasses, nohow!”
+“It’s fresh meat they want, the both of ’em," he muttered to himself.
+“They can’t live and thrive on pork an’ molasses, nohow!"
 
 His big fingers, clumsily gentle, played for a moment with the child’s
 yellow curls. Then he pulled a thick, gray homespun hunting-shirt over
@@ -1547,7 +1547,7 @@ his rifle, cartridge-pouch, and snowshoes from their nails on the
 moss-chinked wall, cast one tender look on the sleepers’ faces, and
 slipped out of the cabin door as silently as a shadow.
 
-“I’ll have fresh meat for them before next sundown,” he vowed to himself.
+“I’ll have fresh meat for them before next sundown," he vowed to himself.
 
 Outside, amid the chips of his chopping, with a rough well-sweep on one
 hand and a rougher barn on the other, he knelt to put on his snowshoes.
@@ -1636,7 +1636,7 @@ leaned nosing in piteous bewilderment at the head of its dead mother.
 
 Again the woodsman changed his mind. He bit off a chew of black tobacco,
 and for some moments stood deliberating, stubbly chin in hand. “I’ll save
-him for the boy to play with and bring up,” he at last decided.
+him for the boy to play with and bring up," he at last decided.
 
 [Illustration: THE HOMESICKNESS OF KEHONKA]
 
@@ -1719,8 +1719,8 @@ happened that a young farmer, who had a curious taste for all the wild
 kindred of wood, and flood, and air, came up from the Lower Tantramar
 with a wagon-load of grist for the Midgic mill. While his buckwheat and
 barley were a-grinding, he thought of a current opinion to the effect
-that the wild geese were given to nesting in the Midgic lakes. “If so,”
-said he to himself, “this is the time they would be about it.” Full of
+that the wild geese were given to nesting in the Midgic lakes. “If so,"
+said he to himself, “this is the time they would be about it." Full of
 interest, a half-hour’s tramp through difficult woods brought him to the
 nearest of the waters. An instinct, an intuition born of his sympathy
 with the furtive folk, led him to the point, and out along the point to
@@ -1728,7 +1728,7 @@ that once islet, with its secret in the heart of the tangle. Vain were
 the furious hissings, the opposing wings, the wide black bills that
 threatened and oppugned him. With the eager delight of a boy he pounced
 upon those six great eggs, and carried them all away. “They will soon
-turn out another clutch,” said he to himself, as he left the bereaved
+turn out another clutch," said he to himself, as he left the bereaved
 pair, and tramped elatedly back to the mill. As for the bereaved pair,
 being of a philosophic spirit, they set themselves to fulfil as soon as
 possible his prophecy.
@@ -1751,8 +1751,8 @@ eggs, only two lived till the coming of autumn brought them full plumage
 and the power of flight. Before the time of the southward migration came
 near, the young farmer took these two and clipped from each the strong
 primaries of their right wings. “They seem contented enough, and tame as
-any,” he said to himself, “but you never can tell what’ll happen when the
-instinct strikes ’em.”
+any," he said to himself, “but you never can tell what’ll happen when the
+instinct strikes ’em."
 
 Both the young wild geese were fine males. Their heads and long, slim
 necks were black, as were also their tails, great wing feathers, bills,
@@ -1785,7 +1785,7 @@ confident a fearlessness as he. He would take oats out of the farmer’s
 hand, which none of the rest quite dared to do.
 
 [Illustration: “HE WOULD STAND MOTIONLESS, HIS COMPACT, GLOSSY HEAD HIGH
-IN AIR.”]
+IN AIR."]
 
 Until late in the autumn, the lonely, uncomraded bird was always silent.
 But when the migrating flocks began to pass overhead, on the long
@@ -1799,10 +1799,10 @@ favoured the more domesticated and manageable brother, who could be
 trusted never to stray. But the farmer, who mused deeply over his
 furrows, and half wistfully loved the wild kindred, loved Kehonka, and
 used to say he would not lose the bird for the price of a steer. “That
-there bird,” he would say, “has got dreams away down in his heart. Like
+there bird," he would say, “has got dreams away down in his heart. Like
 as not, he remembers things his father and mother have seen, up amongst
 the ice cakes and the northern lights, or down amongst the bayous and the
-big southern lilies.” But all his sympathy failed to make him repent of
+big southern lilies." But all his sympathy failed to make him repent of
 having clipped Kehonka’s wing.
 
 During the long winter, when the winds swept fiercely the open marshes of
@@ -1823,7 +1823,7 @@ countryside—ke-honk-a—ke-honk-a—ke-honk-a! Whereat the farmer’s wife,
 turning her buckwheat pancakes over the hot kitchen stove, would mutter
 impatiently; but the farmer, slipping to the door of the cow-stable with
 the bucket of feed in his hand, would look with deep eyes of sympathy at
-the unsatisfied bird. “He wants something that we don’t grow round here,”
+the unsatisfied bird. “He wants something that we don’t grow round here,"
 he would say to himself; and little by little the bird’s restlessness
 came to seem to him the concrete embodiment of certain dim outreachings
 of his own. He, too, caught himself straining his gaze beyond the marsh
@@ -1908,7 +1908,7 @@ his captivity and clipped wing. He was thinking of a nest in the wide
 emptiness of the North.
 
 [Illustration: “FELL WITH A GREAT SPLASH INTO THE CHANNEL OF THE
-TANTRAMAR.”]
+TANTRAMAR."]
 
 When the signal-cry came, and the flock took flight, Kehonka rose with
 them. But his preliminary rush along the water was longer than that of
@@ -1950,7 +1950,7 @@ apprehension he made his longest flight. When about spent he caught a
 small gleaming of water far below him, and alighted in a little woodland
 glade wherein a brook had overflowed low banks.
 
-[Illustration: “THE DISCOURAGER OF QUESTS DARTED STEALTHILY FORTH.”]
+[Illustration: “THE DISCOURAGER OF QUESTS DARTED STEALTHILY FORTH."]
 
 The noise of his abrupt descent loudly startled the wet and dreaming
 woods. It was a matter of interest to all the furry, furtive ears of the
@@ -2076,14 +2076,14 @@ A soiled quilt of blue, magenta, and white squares wrapped the old man’s
 legs, as he sat by the window waiting for Silas to come in. His withered
 hands picked ceaselessly at the quilt.
 
-“I wish Si’d come! I want my breakfast!” he kept repeating, now
+“I wish Si’d come! I want my breakfast!" he kept repeating, now
 wistfully, now fretfully. His gaze wandered from the window to the stove,
 from the stove to the window, with slow regularity. When the pig came
 rooting into his line of vision, it vexed him, and he muttered peevishly
 to himself.
 
 “That there hog’ll hev the whole place rooted up. I wish Si’d come and
-drive him out of that!”
+drive him out of that!"
 
 At last Si came. The old man’s face smoothed itself, and a loving light
 came into his eyes as the lad adjusted the pillow at his head. The doings
@@ -2093,29 +2093,29 @@ Si bustled about to get breakfast, the old man’s eyes following every
 movement. The tea was placed on the back of the stove to draw. A plate of
 cold buckwheat cakes was brought out of the cupboard and set on the rude
 table. A cup, with its handle broken off, was half filled with molasses,
-for “sweetenin’,” and placed beside the buckwheat cakes. Then Si cut some
-thick slices of salt pork and began to fry them. They “sizzled”
+for “sweetenin’," and placed beside the buckwheat cakes. Then Si cut some
+thick slices of salt pork and began to fry them. They “sizzled"
 cheerfully in the pan, and to Si, with his vigorous morning appetite, the
 odour was rare and fine. But the old man was troubled by it. His hands
 picked faster at the quilt.
 
-“Si,” said he, in a quavering voice, that rose and fell without regard to
+“Si," said he, in a quavering voice, that rose and fell without regard to
 the force of the words, “I know ye can’t help it, but my stomach’s turned
 agin salt pork! It’s been a-comin’ on me this long while, that I couldn’t
 eat it no more. An’ now it’s come. Pork, pork, pork,—I can’t eat it no
 more, Si! But there, I know ye can’t help it. Ye’re a good boy, a kind
-son, Si, and ye can’t help it!”
+son, Si, and ye can’t help it!"
 
 Si went on turning the slices with an old fork till the quavering voice
 stopped. Then he cried, cheerfully:
 
 “Try an’ eat a leetle mite of it, father. This ’ere tea’s _fine_, an’ll
 sort of wash it down. An’ while I’m a-working in the back field this
-morning I’ll try and think of somethin’ to kinder tickle your appetite!”
+morning I’ll try and think of somethin’ to kinder tickle your appetite!"
 
 The old man shook his head gloomily.
 
-“I can’t eat no more fried pork, Si,” said he, “not if I die fur it! I
+“I can’t eat no more fried pork, Si," said he, “not if I die fur it! I
 know ye can’t help it! An’ it don’t matter, fur I won’t be here much
 longer anyways. It’ll be a sight better fur you, Si, when I’m gone—but I
 kinder don’t like to leave ye here all alone. Seems like I kinder keep
@@ -2127,7 +2127,7 @@ hot supper ready on the table, an’ the lamp a-shinin’ cheerful? An’ what
 suppers she could cook! D’ye mind the pies, an’ the stews, an’ the fried
 deer’s meat? I could eat some of that fried deer’s meat now, Si. An’ I
 feel like it would make me better. It ain’t no fault of yours, Si, but I
-can’t eat no more salt pork!”
+can’t eat no more salt pork!"
 
 Si lifted the half-browned slices of yellow and crimson on to a plate,
 poured the gravy over them, and set the plate on the table. Then he
@@ -2141,11 +2141,11 @@ pegs behind the door.
 
 The old man noticed what he was doing.
 
-“Ain’t ye goin’ to work in the back field, Silas?” he asked, plaintively.
+“Ain’t ye goin’ to work in the back field, Silas?" he asked, plaintively.
 
-“No, father,” said the lad, “I’m goin’ a-gunnin’. Ef I don’t have some of
+“No, father," said the lad, “I’m goin’ a-gunnin’. Ef I don’t have some of
 that fried deer’s meat fur your supper to-night, like mother useter fix
-fur ye, my name ain’t Silas Hackett!”
+fur ye, my name ain’t Silas Hackett!"
 
 He set a tin of fresh water on the window ledge within reach of his
 father’s hand, gave one tender touch to the pillow, and went out quickly.
@@ -2183,12 +2183,12 @@ would fill the dusky air of the cabin. As he crossed the chip-strewn
 yard, he saw his father’s face watching for him. He dropped his burden at
 the door, and entered, panting and triumphant.
 
-“I’ve got it fur ye, father!” he cried, softly touching the tremulous
+“I’ve got it fur ye, father!" he cried, softly touching the tremulous
 hands with his big brown fingers.
 
-“I’m right glad, Si,” quavered the old man, “but I’m a sight gladder to
+“I’m right glad, Si," quavered the old man, “but I’m a sight gladder to
 see ye back! The hours is long when ye’re not by me! Oh, but ye do mind
-me of your mother, Si!”
+me of your mother, Si!"
 
 Si took the carcass to the shed, dressed it carefully, and then, after
 cutting several thick slices from the haunch, stowed it in the little
@@ -2203,20 +2203,20 @@ veins. His under lip grew firmer, his voice steadier, his brain more
 clear. With a gladness that brought tears into his eyes, Silas marked the
 change.
 
-“Father,” he cried, “ye look more like yerself than I’ve seen ye these
-two years past!”
+“Father," he cried, “ye look more like yerself than I’ve seen ye these
+two years past!"
 
 And the old man replied, with a ring of returning hope in his voice:
 
 “This ’ere deer’s meat’s more’n any medicine. Ef I git well, ever, seems
 to me it’ll be according to what I eat or don’t eat, more’n anything
-else.”
+else."
 
-[Illustration: “TWO GREEN EYES, CLOSE TO THE GROUND.”]
+[Illustration: “TWO GREEN EYES, CLOSE TO THE GROUND."]
 
-“Whatever ye think’ll help ye, that ye shall hev, father,” declared
+“Whatever ye think’ll help ye, that ye shall hev, father," declared
 Silas, “ef I have to crawl on hands an’ knees all day an’ all night fur
-it!”
+it!"
 
 Meanwhile, in the heart of the bushy thicket, on the spotted heap of
 leaves, lay a little fawn, waiting for its mother. It was trembling now
@@ -2256,14 +2256,14 @@ glow dies out of a coal; for the dread voice sounded very close to him,
 and it required all his nerve to hold himself rigidly motionless and to
 refrain from the start which would have betrayed him to his death.
 
-“_Whoo-hoo-oo-h’oo-oo!_” boomed the call again, seeming to come from the
+“_Whoo-hoo-oo-h’oo-oo!_" boomed the call again, seeming to come from the
 tree-tops, the thickets, the sky, and the earth, all at once, so that
 creatures many hundred yards apart trembled simultaneously, deeming that
 the clutch of fate was already at their necks. But to the Boy, as he let
 down the pasture bars with a clatter and turned the new-milked cows in
 among the twilight-coloured hillocks, the sound brought no terror. He
 smiled as he said to himself: “There’s Hushwing again at his hunting. I
-must give him a taste of what it feels like to be hunted.” Then he
+must give him a taste of what it feels like to be hunted." Then he
 strolled across the pasture, between the black stumps, the blueberry
 patches, the tangles of wild raspberry; pushed softly through the fringe
 of wild cherry and young birch saplings, and crept, soundless as a snake,
@@ -2275,7 +2275,7 @@ The Boy’s eyes were keen as a fish-hawk’s, and he kept them fixed upon
 the top of the pine trunk. Presently it seemed as if the spirit of the
 dusk took shadowy form for an instant. There was a soundless sweeping of
 wings down the glade, and the next moment the pine trunk looked about two
-feet taller in the Boy’s eyes. The great horned owl—“Hushwing,” the Boy
+feet taller in the Boy’s eyes. The great horned owl—“Hushwing," the Boy
 had christened him, for the ghostly silence of his flight—had returned to
 his favourite post of observation, whereon he stood so erect and
 motionless that he seemed a portion of the pine trunk itself.
@@ -2300,7 +2300,7 @@ squeak; and Hushwing winnowed off down the glade bearing the limp form of
 the hare in his talons. He did not stop at the pine trunk, but passed on
 toward the deeper woods.
 
-“He’s got a mate and a nest ’way back in the cedar swamp, likely,” said
+“He’s got a mate and a nest ’way back in the cedar swamp, likely," said
 the Boy, as he got up, stretched his cramped limbs, and turned his face
 homeward. As he went, he schemed with subtle woodcraft for the capture of
 the wary old bird. He felt impelled to try his skill against the
@@ -2324,8 +2324,8 @@ taking tribute of their flocks. He had traversed the cedar swamp, and
 emerging upon the wooded uplands he had come across a cow-path leading
 down to the trampled brink of a pond.
 
-“Here,” he thought to himself, “will the cattle come to drink, and I will
-kill me a yearling heifer.” On the massive horizontal limb of a willow
+“Here," he thought to himself, “will the cattle come to drink, and I will
+kill me a yearling heifer." On the massive horizontal limb of a willow
 which overhung the trodden mire of the margin he stretched himself to
 await the coming of the quarry. A thick-leaved beech bough, thrusting in
 among the willow branches, effectually concealed him. Only from above was
@@ -2358,7 +2358,7 @@ doom. There was a shrill squeal as those knife-like talons met in the
 small, furry body; then Hushwing carried off his supper to be eaten
 comfortably upon his watch-tower.
 
-[Illustration: “HE STRUCK THE EMPTY AIR.”]
+[Illustration: “HE STRUCK THE EMPTY AIR."]
 
 Meanwhile the Boy was planning the capture of the wise old owl. He might
 have shot the bird easily, but wanton slaughter was not his object, and
@@ -2431,11 +2431,11 @@ snapped his sharp beak in defiance; but the Boy drew him down, muffled
 wing, beak, and talons in his heavy homespun jacket, bundled him under
 his arm, and carried him home in triumph.
 
-“You’ll find the rats in our oat-bins,” said he, “fatter than any weasel
-in the wood, my Hushwing.”
+“You’ll find the rats in our oat-bins," said he, “fatter than any weasel
+in the wood, my Hushwing."
 
 [Illustration: “SETTLED HIMSELF, MUCH DISCONCERTED, ON THE BACK OF AN OLD
-HAIRCLOTH SOFA.”]
+HAIRCLOTH SOFA."]
 
 The oat-bins were in a roomy loft at one end of the wood-shed. The loft
 was lighted by a large square window in the gable, arranged to swing back
@@ -2505,7 +2505,7 @@ till his bushy, hatless head was just on a level with the window-sill.
 Without a sound, as he imagined, his knife-edge raised the hook—but there
 _was_ a sound, the ghost of a sound, and the marvellous ear of Hushwing
 heard it. As the window swung back the thief’s bushy crown appeared just
-over the sill. “_Whoo-h’oo-oo!_” shouted Hushwing, angry and hungry,
+over the sill. “_Whoo-h’oo-oo!_" shouted Hushwing, angry and hungry,
 swooping at the seductive mark. He struck it fair and hard, his claws
 gashing the scalp, his wings dealing an amazing buffet.
 
@@ -2527,12 +2527,12 @@ loft, told their own story. When the Boy saw that Hushwing was gone, his
 face fell with disappointment. He had grown very fond of his big,
 irreconcilable, dauntless captive.
 
-“We owe Master Hushwing a right good turn this night,” said the Boy’s
+“We owe Master Hushwing a right good turn this night," said the Boy’s
 father, laughing. “My grain’s going to last longer after this, I’m
-thinking.”
+thinking."
 
-“Yes,” sighed the Boy, “Hushwing has earned his freedom. I suppose I
-mustn’t bother him any more with snares and things.”
+“Yes," sighed the Boy, “Hushwing has earned his freedom. I suppose I
+mustn’t bother him any more with snares and things."
 
 Meanwhile, the great horned owl was sitting erect on the edge of his nest
 in the swamp, one talon transfixing the torn carcass of a mink, while his
@@ -2594,7 +2594,7 @@ coarse for one of the deer tribe to possess, were set very low on his
 skull—to such a degree, indeed, as to give somehow a daunting touch of
 the monstrous to his massive dignity. His neck was short and immensely
 powerful, to support the gigantic head and antlers. From his throat hung
-a strange, ragged, long-haired tuft, called by woodsmen the “bell.” His
+a strange, ragged, long-haired tuft, called by woodsmen the “bell." His
 chest was of great depth, telling of exhaustless lung power; and his long
 forelegs upbore his mighty fore-shoulders so that their gaunt ridge was
 nearly seven feet from the ground. From this height his short back fell
@@ -2656,7 +2656,7 @@ bull to mimic the braying of an ass. Nevertheless, to one who could hear
 aright, it was a noble and splendid call, vital with all sincerity of
 response and love and elemental passion.
 
-[Illustration: “HE GAVE ANSWER AT ONCE TO THE SUMMONS.”]
+[Illustration: “HE GAVE ANSWER AT ONCE TO THE SUMMONS."]
 
 Having sent forth his reply, he waited for no more. He was consumed with
 fierce anxiety lest some rival should also hear and answer the
@@ -2668,7 +2668,7 @@ taking advantage of the open beach where there was any, but for the most
 part hidden in the trees, where his progress was loudly marked by the
 crashing and trampling of his impatience.
 
-[Illustration: “STARTED IN MAD HASTE DOWN THE SHORE.”]
+[Illustration: “STARTED IN MAD HASTE DOWN THE SHORE."]
 
 All the furtive kindred, great as well as small, bold as well as
 timorous, gave him wide berth. A huge black bear, pleasantly engaged in
@@ -2697,7 +2697,7 @@ satisfactory spot for the hunter who follows his sport in the calling
 season.
 
 [Illustration: “HE DUG HIS CLAWS DEEPER INTO THE BARK, AND BARED HIS
-FANGS THIRSTILY.”]
+FANGS THIRSTILY."]
 
 There was no brown young cow anywhere within hearing; but in the covert
 of the viburnum, under the densest shadow of the maple, crouched two
@@ -2728,8 +2728,8 @@ legs. As he stood forth into the moonlight, a loon far out in the silver
 sheen of the lake descried him, and at once broke into a peal of his
 startling and demoniacal laughter.
 
-“Git down!” ordered the old woodsman, curtly. “That bird tells all it
-sees!” And immediately setting the birchen trumpet to his lips, he
+“Git down!" ordered the old woodsman, curtly. “That bird tells all it
+sees!" And immediately setting the birchen trumpet to his lips, he
 sounded the most seductive call he knew. It was answered promptly, and
 this time from so near at hand that the nerves of both hunters were
 strung to instant tension. They both effaced themselves to a stillness
@@ -2751,7 +2751,7 @@ towering flight of antlers emerged into the light.
 
 The boy’s rifle—for it was his shot—was at his shoulder; but he lowered
 it, and anxiously his eyes sought the face of his companion. The latter,
-with lips that made no sound, shaped the words, “He suspects something.”
+with lips that made no sound, shaped the words, “He suspects something."
 Then, once more lifting the treacherous tube of birch-bark to his mouth,
 he murmured through it a rough but strangely tender note. It was not
 utterly unlike that with which a cow sometimes speaks to her calf just
@@ -2819,7 +2819,7 @@ just this gray spruce stump! He turned away, a little puzzled and annoyed
 in spite of himself. Thrashing noisily hither and thither through the
 underbrush,—quite contrary to his wonted quietude while in the domains of
 the wood folk,—and calling loudly in his clear young voice, “Co-petty!
-Co-petty! Co-petty! Co-o-o-petty!” over and over, he at length found the
+Co-petty! Co-petty! Co-o-o-petty!" over and over, he at length found the
 wilful young cow which had been eluding him. Then he drove the herd
 slowly homeward, with mellow _tink-a-tonk, tank-tonk_ of the cow-bells,
 to the farmyard and the milking.
@@ -2872,11 +2872,11 @@ hare, for instance, would simply make a mock of him in any test of ears;
 and as for the owl—well, that gifted hearer of infinitesimal sounds would
 be justified in calling him stone-deaf.
 
-[Illustration: “THE BIG BEAST LITTLE IMAGINED HIMSELF OBSERVED.”]
+[Illustration: “THE BIG BEAST LITTLE IMAGINED HIMSELF OBSERVED."]
 
 The Boy was a good shot, but very seldom was it that he cared to display
 his skill in that direction. It was his ambition to “name all the birds
-without a gun.” He would know the wild folk living, not dead. From the
+without a gun." He would know the wild folk living, not dead. From the
 feebler of the wild folk he wanted trust, not fear; and he himself had no
 fear, on the other hand, of the undisputed Master of the Woods, the big
 black bear. His faith, justified by experience, was that the bear had
@@ -2907,7 +2907,7 @@ must be an easy one. Soon his muscles relaxed, and all his senses rested,
 watchful but unstrained. He had learned that tensity was a thing to be
 held in reserve until occasion should call for it.
 
-[Illustration: “A GREAT LYNX LANDED ON THE LOG.”]
+[Illustration: “A GREAT LYNX LANDED ON THE LOG."]
 
 In a little while his presence was ignored or forgotten by the chipmunks,
 the chickadees, the white-throats, and other unafraid creatures. Once a
@@ -2931,10 +2931,10 @@ glared after him, and emitted a loud, screeching snarl of rage. His
 disappointment was so obvious and childish that the Boy almost laughed
 out.
 
-“Lucifee,” said he to himself, giving it the name it went by in all the
+“Lucifee," said he to himself, giving it the name it went by in all the
 back settlements. “That’s the fellow that has been haunting me. I didn’t
 think there were any lynxes this side of the mountain. He hasn’t seen me,
-that’s sure. So now it’s my turn to haunt him a bit.”
+that’s sure. So now it’s my turn to haunt him a bit."
 
 The lucifee, indeed, had for the moment thrown off all concealment, in
 his fury at the grouse’s escape. His stub of a tail twitched and his pale
@@ -2992,7 +2992,7 @@ uncertainty, indeed, as to what the animal would do next. He was glad he
 had brought his rifle.
 
 [Illustration: “PRESENTLY THE LUCIFEE AROSE AND BEGAN CREEPING STEALTHILY
-CLOSER.”]
+CLOSER."]
 
 Presently the lucifee arose and began creeping stealthily closer, at the
 same time swerving off to the right as if to get behind the tree. Whether
@@ -3027,7 +3027,7 @@ Grasping his rifle in readiness, he hurried forward, searching every
 thicket, looking behind every stump and trunk. The haunter of the gloom
 had disappeared.
 
-[Illustration: “A SILENT GRAY THUNDERBOLT FELL UPON HIM.”]
+[Illustration: “A SILENT GRAY THUNDERBOLT FELL UPON HIM."]
 
 After this, however, the Boy was no more troubled by the mysterious
 pursuit. The lynx had evidently found out all he required to know about
@@ -3079,9 +3079,9 @@ his lair. Here, the second day after his arrival, he came upon a lucifee
 track. But it was not the track with which he was familiar. It was
 smaller, and the print of the right forefoot lacked a toe.
 
-The Boy grinned happily and rubbed his mittened hands. “Aha!” said he to
+The Boy grinned happily and rubbed his mittened hands. “Aha!" said he to
 himself, “better and better! There is a Mrs. Lucifee. Now we’ll see where
-she hides her kittens.”
+she hides her kittens."
 
 The trail was an easy one this time, for no enemies had been looked for
 in that desert neighbourhood. He followed it for about half a mile, and
@@ -3113,7 +3113,7 @@ the more dangerous antagonist of the two; and a feeling of sharp
 hostility toward her, such as he had never felt toward her mate, arose in
 his heart.
 
-[Illustration: “YAWNED HUGELY, AND STRETCHED HERSELF LIKE A CAT.”]
+[Illustration: “YAWNED HUGELY, AND STRETCHED HERSELF LIKE A CAT."]
 
 When she had stretched to her satisfaction, and washed her face
 perfunctorily with two or three sweeps of her big paw, she went back into
@@ -3122,8 +3122,8 @@ brisk air of purpose. She turned to the right, along a well-worn trail,
 ran up a tree to take a survey of the country, descended hastily, and
 glided away among the thickets.
 
-“It’s breakfast she’s after,” said the Boy to himself, “and she’ll take
-some time to find it.”
+“It’s breakfast she’s after," said the Boy to himself, “and she’ll take
+some time to find it."
 
 When she had been some ten minutes gone, the Boy went boldly down to the
 cave. He had no fear of encountering the male, because he knew from an
@@ -3194,7 +3194,7 @@ that the lucifees were likely to return to their prey before evening. He
 hid himself, therefore, behind a log thickly fringed with juniper, not
 twenty-five paces from the carcass; and waited, rifle in hand.
 
-[Illustration: “MOUNTED THE CARCASS WITH AN AIR OF LORDSHIP.”]
+[Illustration: “MOUNTED THE CARCASS WITH AN AIR OF LORDSHIP."]
 
 A little before sunset appeared the five young lucifees, now nearly full
 grown. They fell at once to tearing at the carcass, with much jealous
@@ -3390,7 +3390,7 @@ trail of his lost herds, or push over nearer to the St. John valley and
 find a country of deer.
 
 [Illustration: “HIS BIG, SPREADING PAWS CARRIED HIM OVER ITS SURFACE AS
-IF HE HAD BEEN SHOD WITH SNOW-SHOES.”]
+IF HE HAD BEEN SHOD WITH SNOW-SHOES."]
 
 The big panther was no lover of long journeyings, and he did not travel
 with the air of one bent on going far. He lingered much to hunt rabbits
@@ -3461,7 +3461,7 @@ On the following day, about noon, he came across an astonishing and
 incomprehensible trail, at the first sight and scent of which the hair
 rose along his backbone.
 
-[Illustration: “HE PUSHED THE BALL AGAIN, VERY, VERY DELICATELY.”]
+[Illustration: “HE PUSHED THE BALL AGAIN, VERY, VERY DELICATELY."]
 
 The scent of the strange trail he knew,—and hated it, and feared it. It
 was the man-scent. But the shape and size of the tracks at first appalled
@@ -3560,7 +3560,7 @@ with a luxuriant second growth of birch, maple, Canada fir, moose-wood,
 and white spruce, the ancient forest having fallen years before under the
 axes of the lumbermen. Here on the ridge, where the food they loved was
 abundant, a buck, with his herd of does and fawns, had established his
-winter “yard.” With their sharp, slim hoofs which cut deep into the snow,
+winter “yard." With their sharp, slim hoofs which cut deep into the snow,
 if the deer were compelled to seek their food at large they would find
 themselves at the mercy of every foe as soon as the snow lay deep enough
 to impede their running. It is their custom, therefore, at the beginning
@@ -3626,7 +3626,7 @@ left her to her wayward will and resumed their watching of the camp-fire.
 When one member of a herd persists in disobeying orders, the rest endure
 with equanimity whatever fate may befall her.
 
-[Illustration: “STOLE NOISELESSLY TOWARD THE SHINING LOVELY THING.”]
+[Illustration: “STOLE NOISELESSLY TOWARD THE SHINING LOVELY THING."]
 
 Step by step, as if treading on egg-shells, the fascinated doe threaded
 the path till she came to the lowest limit of the yard. From that point
@@ -3675,7 +3675,7 @@ fellows. At least once in every winter he was sure to be so seized; and
 equally sure to be so favoured by the Boss. On account of his popularity
 in the camp, moreover, this favour excited no jealousy. It had come to be
 taken as a matter of course that Mac would go home for a few days if one
-of his “spells” came upon him. He was always “docked,” to be sure, for
+of his “spells" came upon him. He was always “docked," to be sure, for
 the time of his absence, but as he never stayed away more than a week,
 his little holiday made no very serious breach in his roll when pay-day
 came.
@@ -3700,7 +3700,7 @@ to take place. The only point on which he felt assured was that he and
 the panther would some day meet, in spite of the fact that the great cat
 had grown so scarce in New Brunswick that some hunters declared it was
 extinct. The second reason was that he had a quarrel with all lucifees or
-lynxes,—“Injun devils,” he called them. Once when he was a baby, just big
+lynxes,—“Injun devils," he called them. Once when he was a baby, just big
 enough to sit up when strapped into his chair, a lucifee had come and
 glared at him with fierce eyes through the doorway of his lonely
 backwoods cabin. His mother had come rushing from the cow-shed, just in
@@ -3957,7 +3957,7 @@ blood, kept pounding with her whole massive weight, and with short
 tremendous shocks crushing the breath from her foe’s ribs.
 
 [Illustration: “SHE STRUGGLED STRAIGHT TOWARD THE DEN THAT HELD HER
-YOUNG.”]
+YOUNG."]
 
 Presently, wrenching herself free, the cow drew off for another battering
 charge; and as she did so the bear hurled herself violently down the
@@ -4038,7 +4038,7 @@ figure, indeed, and lacking altogether in that pathetic, infantile
 winsomeness which makes even little pigs attractive. But any one who knew
 about moose would have said, watching the huge baby struggle to his feet
 and stand with sturdy legs well braced, “There, if bears and bullets miss
-him till his antlers get full spread, is the king of the Mamozekel.” Now,
+him till his antlers get full spread, is the king of the Mamozekel." Now,
 when his mother had licked him dry, his coat showed a dark, very sombre,
 cloudy, secretive brown, of a hue to be quite lost in the shadows of the
 fir and hemlock thickets, and to blend consummately with the colour of
@@ -4123,7 +4123,7 @@ the rear; while he could depend upon his eyes and his spacious,
 sensitive, unsleeping ears to warn him of anything ascending against the
 wind to attack him in front.
 
-[Illustration: “THE CALF STOOD CLOSE BY, WATCHING WITH INTEREST.”]
+[Illustration: “THE CALF STOOD CLOSE BY, WATCHING WITH INTEREST."]
 
 At the very first suggestion of morning the two light sleepers arose. In
 the dusk of the fir thicket the hungry calf made his meal. Then they came
@@ -4242,7 +4242,7 @@ most anxious to know what it meant. There was a quiver in the ball; and
 he jumped back, shaking his head, with two of the sharp spines sticking
 in his sensitive upper lip.
 
-[Illustration: “THE MOTHER MALLARD WOULD FLOAT AMID HER BROOD.”]
+[Illustration: “THE MOTHER MALLARD WOULD FLOAT AMID HER BROOD."]
 
 In pain and fright, yet with growing anger, he ran to his mother where
 she was placidly cropping a willow-top. But she was not helpful. She knew
@@ -4370,7 +4370,7 @@ that the windfall was just the place for a bear’s lying-in-wait. With an
 intrepidity beyond the boldest dreams of any other moose-cow on the
 Mamozekel, she launched herself crashing into the covert.
 
-[Illustration: “BUT THEY FELL SHORT OF THEIR INTENDED MARK.”]
+[Illustration: “BUT THEY FELL SHORT OF THEIR INTENDED MARK."]
 
 But her avenging fury found no bear to meet it. The bear knew well this
 mighty moose-cow, having watched her from many a hiding-place, and
@@ -4511,8 +4511,8 @@ himself till the dangerous travellers had gone by. In a few minutes the
 herd resumed its march,—the king keeping close to his mother’s side,
 instead of in his proper place in the line.
 
-The big-antlered bull now chose his site for the “yard,” with “verge and
-room enough” for all contingencies. The “yard” was an ample acreage of
+The big-antlered bull now chose his site for the “yard," with “verge and
+room enough" for all contingencies. The “yard" was an ample acreage of
 innumerable winding paths, trodden ever deeper as the snows accumulated.
 These paths led to every spot of browse, every nook of shelter, at the
 same time twisting and crossing in a maze of intricacies. Thick piled the
@@ -4526,7 +4526,7 @@ antlers of his leader fall off. Seeing that their owner left them lying
 unregarded on the snow, he went up and sniffed at them wonderingly, and
 pondered the incident long and vainly in his heart.
 
-[Illustration: “THICK PILED THE SNOWS ABOUT THE LITTLE HERD.”]
+[Illustration: “THICK PILED THE SNOWS ABOUT THE LITTLE HERD."]
 
 When the snows shrank away, departing with a sound of many waters, and
 spring returned to the Tobique country, the herd broke up. First the
@@ -4813,7 +4813,7 @@ wilful night-wind puffed lightly through the branches. It was a very
 small, irresponsible wind; but it carried sharply to the king’s nostrils
 the strong, fresh taint of bear.
 
-[Illustration: “WAS OFF THROUGH THE UNDERBRUSH IN IGNOMINIOUS FLIGHT.”]
+[Illustration: “WAS OFF THROUGH THE UNDERBRUSH IN IGNOMINIOUS FLIGHT."]
 
 The smell was so strong, it seemed to the king as if the bear must be
 fairly on his haunches. It was like an icy cataract flung upon him. He
@@ -4940,7 +4940,7 @@ through hide and muscle till the king’s blood gushed scarlet over his
 prostrate foe’s dark fur. Then, the growls and the claw-strokes ceased;
 and the furry shape lay still, outstretched, unresisting.
 
-[Illustration: “IT WAS FEAR ITSELF THAT HE WAS WIPING OUT.”]
+[Illustration: “IT WAS FEAR ITSELF THAT HE WAS WIPING OUT."]
 
 For a moment or two the king drew off, and eyed the carcass. Then the
 remembrance of all his past terror and shame surged hotly through him. He
@@ -5053,7 +5053,7 @@ grunted and grumbled querulously, and came on with confidence,
 obstinately proclaiming that no mere bear should for a moment divert him
 from his purpose.
 
-[Illustration: “THE BEAR EYED HIM FOR SOME MOMENTS.”]
+[Illustration: “THE BEAR EYED HIM FOR SOME MOMENTS."]
 
 Whether by instinct, experience, or observation, the bear knew something
 about porcupines. What would honey be to him, with two or three of those
@@ -5241,34 +5241,34 @@ straw; and in one hand he swung a little tin dinner-pail. The girl wore
 the like blue-gray homespun for a petticoat, with a waist of bright red
 calico, and carried a limp pink sunbonnet on her arm.
 
-“Oh, see the porkypine!” cried the girl, as they came abreast of the
+“Oh, see the porkypine!" cried the girl, as they came abreast of the
 stone wall.
 
-“By gosh! Let’s kill it!” exclaimed the stocky little boy, starting
+“By gosh! Let’s kill it!" exclaimed the stocky little boy, starting
 forward eagerly, with a prompt efflorescence of primitive instincts. But
 his sister clutched him by the arm and anxiously restrained him.
 
-“My lands, Jimmy, you musn’t go near a porkypine like that!” she
+“My lands, Jimmy, you musn’t go near a porkypine like that!" she
 protested, more learned than her brother in the hoary myths of the
 settlements. “Don’t you know he can fling them quills of his’n at you,
-an’ they’ll go right through an’ come out the other side?”
+an’ they’ll go right through an’ come out the other side?"
 
-“By gosh!” gasped the boy, eyeing the unconcerned animal with
+“By gosh!" gasped the boy, eyeing the unconcerned animal with
 apprehension, and edging off to the furthermost ditch. Hand in hand,
 their eyes wide with excitement, the two children passed beyond the stone
 wall. Then, as he perceived that the porcupine had not seemed to notice
 them, the boy’s hunting instinct revived. He stopped, set down the tin
 dinner-pail, and picked up a stone.
 
-“No, you don’t, Jimmy!” intervened the girl, with mixed emotions of
+“No, you don’t, Jimmy!" intervened the girl, with mixed emotions of
 kindliness and caution, as she grabbed his wrist and dragged him along.
 
-“Why, Sis?” protested the boy, hanging back, and looking over his
-shoulder longingly. “Jest let me fling a stone at him!”
+“Why, Sis?" protested the boy, hanging back, and looking over his
+shoulder longingly. “Jest let me fling a stone at him!"
 
-“No!” said his sister, with decision. “He ain’t a-hurtin’ us, an’ he’s
+“No!" said his sister, with decision. “He ain’t a-hurtin’ us, an’ he’s
 mindin’ his own business. An’ I reckon maybe he can fling quills as fur
-as you can fling stones!”
+as you can fling stones!"
 
 Convinced by this latter argument, the boy gave up his design, and
 suffered his wise sister to lead him away from so perilous a
@@ -5352,7 +5352,7 @@ time, when all the wild kindred, from the wood-mouse to the moose, felt
 sure that life was good, a porcupine baby was born in the snug den among
 the rocks.
 
-[Illustration: “A WEASEL GLIDED NOISELESSLY UP TO THE DOOR OF THE DEN.”]
+[Illustration: “A WEASEL GLIDED NOISELESSLY UP TO THE DOOR OF THE DEN."]
 
 It was an astonishingly big baby,—the biggest, in proportion to the size
 of its parents, of all the babies of the wild. In fact it was almost as

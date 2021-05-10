@@ -6,7 +6,7 @@ var save_spot // location of clicked citation
 d3v5.csv('data/citations.csv', d3.autoType).then(data => {
 	// load and sort data
 	var sources_data = data
-	sources_data.sort((a, b) => (a.citation > b.citation) ? 1 : -1)
+	sources_data.sort((a, b) => (a.sort > b.sort) ? 1 : -1)
 	console.log(sources_data)
 
 	// for each source

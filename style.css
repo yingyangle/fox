@@ -259,6 +259,10 @@ text {
 	font-size: 18px;
 }
 
+#relationships-text h5 {
+	margin-top: 26px;
+}
+
 #relationships-text .quote-bubble {
 	background-color: #b08a5635;
 	border-radius: 20px;
@@ -317,6 +321,10 @@ text {
 	padding: 12px 18px;
 	font-size: 16px; 
 	/* line-height: 24px;  */
+}
+
+.quote-bubble.secondary-source {
+	background-color: #eea94954;
 }
 
 #sources-list {

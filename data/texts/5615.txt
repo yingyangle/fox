@@ -1082,7 +1082,7 @@ His friends did not trouble themselves any more about him; they would
 not even walk down the street with him.
 
 But one of them who was rather good-natured sent him an old trunk with
-the message, ‘Pack up!” That was all very well, but he had nothing to
+the message, ‘Pack up!" That was all very well, but he had nothing to
 pack up, so he got into the trunk himself.
 
 It was an enchanted trunk, for as soon as the lock was pressed it could
@@ -1158,33 +1158,33 @@ sunshine, and the little birds used to tell us stories. We were very
 rich, because the other trees only dressed in summer, but we had green
 dresses in summer and in winter. Then the woodcutter came, and our
 family was split up. We have now the task of making light for the lowest
-people. That is why we grand people are in the kitchen.”
+people. That is why we grand people are in the kitchen."
 
-‘“My fate was quite different,” said the iron pot, near which the
+‘“My fate was quite different," said the iron pot, near which the
 matches lay.
 
 ‘“Since I came into the world I have been many times scoured, and have
 cooked much. My only pleasure is to have a good chat with my companions
-when I am lying nice and clean in my place after dinner.”
+when I am lying nice and clean in my place after dinner."
 
-‘“Now you are talking too fast,” spluttered the fire.
+‘“Now you are talking too fast," spluttered the fire.
 
-‘“Yes, let us decide who is the grandest!” said the matches.
+‘“Yes, let us decide who is the grandest!" said the matches.
 
-‘“No, I don’t like talking about myself,” said the pot.
+‘“No, I don’t like talking about myself," said the pot.
 
 ‘“Let us arrange an evening’s entertainment. I will tell the story of my
 life.
 
-‘“On the Baltic by the Danish shore-”
+‘“On the Baltic by the Danish shore-"
 
-‘What a beautiful beginning!” said all the plates. “That’s a story that
-will please us all.”
+‘What a beautiful beginning!" said all the plates. “That’s a story that
+will please us all."
 
 ‘And the end was just as good as the beginning. All the plates clattered
 for joy.
 
-‘“Now I will dance,” said the tongs, and she danced. Oh! how high she
+‘“Now I will dance," said the tongs, and she danced. Oh! how high she
 could kick!
 
 ‘The old chair-cover in the corner split when he saw her.
@@ -1196,21 +1196,21 @@ unless she boiled.
 her except that she had been dipped too deeply into the ink. But she was
 very proud of that.
 
-‘“If the urn will not sing,” said she, “outside the door hangs a
-nightingale in a cage who will sing.”
+‘“If the urn will not sing," said she, “outside the door hangs a
+nightingale in a cage who will sing."
 
-‘“I don’t think it’s proper,” said the kettle, “that such a foreign bird
-should be heard.”
+‘“I don’t think it’s proper," said the kettle, “that such a foreign bird
+should be heard."
 
-‘“Oh, let us have some acting,” said everyone. “Do let us!”
+‘“Oh, let us have some acting," said everyone. “Do let us!"
 
 ‘Suddenly the door opened and the maid came in. Everyone was quite
 quiet. There was not a sound. But each pot knew what he might have done,
 and how grand he was.
 
 ‘The maid took the matches and lit the fire with them. How they
-spluttered and flamed, to be sure! “Now everyone can see,” they thought,
-“that we are the grandest! How we sparkle! What a light-”
+spluttered and flamed, to be sure! “Now everyone can see," they thought,
+“that we are the grandest! How we sparkle! What a light-"
 
 ‘But here they were burnt out.’
 
@@ -2406,7 +2406,7 @@ Then he told her all he knew.
 dreadfully clever. She has read all the newspapers in the world and has
 forgotten them again. She is as clever as that. The other day she came
 to the throne, and that is not so pleasant as people think. Then she
-began to say, “Why should I not marry?” But she wanted a husband who
+began to say, “Why should I not marry?" But she wanted a husband who
 could answer when he was spoken to, not one who would stand up stiffly
 and look respectable--that would be too dull.
 
@@ -2442,7 +2442,7 @@ glass of water.
 
 ‘A few of the cleverest had brought some slices of bread and butter
 with them, but they did not share them with their neighbour, for they
-thought, “If he looks hungry, the princess will not take him!”’
+thought, “If he looks hungry, the princess will not take him!"’
 
 ‘But what about Kay?’ asked Gerda. ‘When did he come? Was he in the
 crowd?’
@@ -2462,7 +2462,7 @@ and she clapped her hands.
 this from my sweetheart, that when he came to the palace door and saw
 the royal guards in silver, and on the stairs the footmen in gold, he
 was not the least bit put out. He nodded to them, saying, “It must be
-rather dull standing on the stairs; I would rather go inside!”
+rather dull standing on the stairs; I would rather go inside!"
 
 ‘The halls blazed with lights; councillors and ambassadors were walking
 about in noiseless shoes carrying gold dishes. It was enough to make one
@@ -3668,7 +3668,7 @@ now.
 
 ‘I suppose he can’t say anything yet?’ said the man.
 
-‘Oh, yes,’ said the clerk, ‘he can say “Moo” now.’
+‘Oh, yes,’ said the clerk, ‘he can say “Moo" now.’
 
 ‘Do you think he will get on with his learning?’ asked the peasant.
 
@@ -3778,14 +3778,14 @@ When the merchant saw what kind of man he had before him he began to
 speak him fair, and invited him to stay with him for some days, so that
 they might have some more talk together.
 
-‘Very well,’ said the peasant, ‘but you must call me “Father.”’
+‘Very well,’ said the peasant, ‘but you must call me “Father."’
 
 ‘I have neither father nor mother alive,’ said Peter Bull.
 
 ‘I know that,’ said the man; ‘your real father was sold at Hamburg last
 Michaelmas, and your real mother died while calving in spring; but my
 wife and I have adopted you as our own, and you are our only heir, so
-you must call me “Father.”’
+you must call me “Father."’
 
 Peter Bull was quite willing to do so, and it was settled that he should
 keep the money, while the peasant made his will and left to him all that
@@ -6211,7 +6211,7 @@ which way will the serpent come?’
 little on one side, and then, when the serpent rises to the surface, I
 will say to him, “O serpent, to-day you can eat two people. But you had
 better begin first with the young man, for I am chained and cannot run
-away.” When he hears this most likely he will attack you.’
+away." When he hears this most likely he will attack you.’
 
 So the young man stood carefully on one side, and by-and-bye he heard
 a great rushing in the water; and a horrible monster came up to the
@@ -7342,17 +7342,17 @@ do all other damage that you can. My father will then get very angry,
 and as the king must answer for what his fool does he will sentence him,
 even although he has paid his debt, either to answer three questions or
 to lose his life. The first question my father will ask will be, “Where
-is my daughter?” Then you shall step forward and answer “She is at the
-bottom of the sea.” He will then ask you whether you can recognise her,
-and to this you will answer “Yes.” Then he will bring forward a whole
+is my daughter?" Then you shall step forward and answer “She is at the
+bottom of the sea." He will then ask you whether you can recognise her,
+and to this you will answer “Yes." Then he will bring forward a whole
 troop of women, and cause them to pass before you, in order that you may
 pick out the one that you take for his daughter. You will not be able
 to recognise me at all, and therefore I will catch hold of you as I go
 past, so that you can notice it, and you must then make haste to catch
 me and hold me fast. You have then answered his first question. His next
-question will be, “Where is my heart?” You shall then step forward again
-and answer, “It is in a fish.” “Do you know that fish?” he will say,
-and you will again answer “Yes.” He will then cause all kinds of fish
+question will be, “Where is my heart?" You shall then step forward again
+and answer, “It is in a fish." “Do you know that fish?" he will say,
+and you will again answer “Yes." He will then cause all kinds of fish
 to come before you, and you shall choose between them. I shall take good
 care to keep by your side, and when the right fish comes I will give you
 a little push, and with that you will seize the fish and cut it up. Then
@@ -8514,7 +8514,7 @@ the bergman over the head with it.
 ‘What a wicked little girl you are!’ said he; ‘but you shall be none the
 better of this. I shall give you three wishes, and choose them for you.
 First, I shall say, “Ugly are you, but you shall become so ugly that
-there will not be an uglier one on earth.” Next I shall wish that every
+there will not be an uglier one on earth." Next I shall wish that every
 time you open your mouth a big toad may fall out of it, and your voice
 shall be like the roaring of a bull. In the third place I shall wish for
 you a violent death.’
@@ -9631,7 +9631,7 @@ quite a large fire.
 
 When it was burning brightly the little hare said to the rabbit,
 ‘Rabbit, my friend, throw me into the fire, and when you hear my fur
-crackling, and I call “Itchi, Itchi,” then be quick and pull me out.’
+crackling, and I call “Itchi, Itchi," then be quick and pull me out.’
 
 The rabbit did as he was told, and threw the little hare into the fire;
 but no sooner did the little hare begin to feel the heat of the flames
@@ -10514,7 +10514,7 @@ life?’
 ‘Yes, of course I should,’ replied the Don.
 
 ‘Well, here is a purse; take it and say to it, “Dear purse, give me some
-money,” and you will get as much as you can want But the charm will only
+money," and you will get as much as you can want But the charm will only
 work if you promise to remain three years, three months, and three days
 without washing and without combing and without shaving your beard or
 changing your clothes. If you do all this faithfully, when the time is
@@ -10691,7 +10691,7 @@ PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
 To protect the Project Gutenberg-tm mission of promoting the free
 distribution of electronic works, by using or distributing this work
 (or any other work associated in any way with the phrase “Project
-Gutenberg”), you agree to comply with all the terms of the Full Project
+Gutenberg"), you agree to comply with all the terms of the Full Project
 Gutenberg-tm License (available with this file or online at
 http://gutenberg.org/license).
 
@@ -10710,7 +10710,7 @@ Gutenberg-tm electronic work and you do not agree to be bound by the
 terms of this agreement, you may obtain a refund from the person or
 entity to whom you paid the fee as set forth in paragraph 1.E.8.
 
-1.B.  “Project Gutenberg” is a registered trademark.  It may only be
+1.B.  “Project Gutenberg" is a registered trademark.  It may only be
 used on or associated in any way with an electronic work by people who
 agree to be bound by the terms of this agreement.  There are a few
 things that you can do with most Project Gutenberg-tm electronic works
@@ -10720,7 +10720,7 @@ Gutenberg-tm electronic works if you follow the terms of this agreement
 and help preserve free future access to Project Gutenberg-tm electronic
 works.  See paragraph 1.E below.
 
-1.C.  The Project Gutenberg Literary Archive Foundation (“the Foundation”
+1.C.  The Project Gutenberg Literary Archive Foundation (“the Foundation"
  or PGLAF), owns a compilation copyright in the collection of Project
 Gutenberg-tm electronic works.  Nearly all the individual works in the
 collection are in the public domain in the United States.  If an
@@ -10751,8 +10751,8 @@ States.
 1.E.1.  The following sentence, with active links to, or other immediate
 access to, the full Project Gutenberg-tm License must appear prominently
 whenever any copy of a Project Gutenberg-tm work (any work on which the
-phrase “Project Gutenberg” appears, or with which the phrase “Project
-Gutenberg” is associated) is accessed, displayed, performed, viewed,
+phrase “Project Gutenberg" appears, or with which the phrase “Project
+Gutenberg" is associated) is accessed, displayed, performed, viewed,
 copied or distributed:
 
 This eBook is for the use of anyone anywhere at no cost and with
@@ -10765,7 +10765,7 @@ from the public domain (does not contain a notice indicating that it is
 posted with permission of the copyright holder), the work can be copied
 and distributed to anyone in the United States without paying any fees
 or charges.  If you are redistributing or providing access to a work
-with the phrase “Project Gutenberg” associated with or appearing on the
+with the phrase “Project Gutenberg" associated with or appearing on the
 work, you must comply either with the requirements of paragraphs 1.E.1
 through 1.E.7 or obtain permission for the use of the work and the
 Project Gutenberg-tm trademark as set forth in paragraphs 1.E.8 or
@@ -10792,11 +10792,11 @@ Gutenberg-tm License.
 compressed, marked up, nonproprietary or proprietary form, including any
 word processing or hypertext form.  However, if you provide access to or
 distribute copies of a Project Gutenberg-tm work in a format other than
-“Plain Vanilla ASCII” or other format used in the official version
+“Plain Vanilla ASCII" or other format used in the official version
 posted on the official Project Gutenberg-tm web site (www.gutenberg.org),
 you must, at no additional cost, fee or expense to the user, provide a
 copy, a means of exporting a copy, or a means of obtaining a copy upon
-request, of the work in its original “Plain Vanilla ASCII” or other
+request, of the work in its original “Plain Vanilla ASCII" or other
 form.  Any alternate format must include the full Project Gutenberg-tm
 License as specified in paragraph 1.E.1.
 
@@ -10819,7 +10819,7 @@ that
      returns.  Royalty payments should be clearly marked as such and
      sent to the Project Gutenberg Literary Archive Foundation at the
      address specified in Section 4, “Information about donations to
-     the Project Gutenberg Literary Archive Foundation.”
+     the Project Gutenberg Literary Archive Foundation."
 
 - You provide a full refund of any money paid by a user who notifies
      you in writing (or by e-mail) within 30 days of receipt that s/he
@@ -10851,14 +10851,14 @@ effort to identify, do copyright research on, transcribe and proofread
 public domain works in creating the Project Gutenberg-tm
 collection.  Despite these efforts, Project Gutenberg-tm electronic
 works, and the medium on which they may be stored, may contain
-“Defects,” such as, but not limited to, incomplete, inaccurate or
+“Defects," such as, but not limited to, incomplete, inaccurate or
 corrupt data, transcription errors, a copyright or other intellectual
 property infringement, a defective or damaged disk or other medium, a
 computer virus, or computer codes that damage or cannot be read by
 your equipment.
 
 1.F.2.  LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
-of Replacement or Refund” described in paragraph 1.F.3, the Project
+of Replacement or Refund" described in paragraph 1.F.3, the Project
 Gutenberg Literary Archive Foundation, the owner of the Project
 Gutenberg-tm trademark, and any other party distributing a Project
 Gutenberg-tm electronic work under this agreement, disclaim all
