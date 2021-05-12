@@ -1,5 +1,5 @@
 var mediums = ['comic', 'book', 'film', 'misc', 'game', 'music']
-var bubble_nodes = [
+var bubble_nodes_moden = [
 	{
 		'name': 'Fantastic Mr. Fox',
 		'medium': 'film',
@@ -102,7 +102,7 @@ function createBubble() {
 	
 	// filter and format data
 	function get_data() {
-		var nodes = bubble_nodes
+		var nodes = bubble_nodes_moden
 
 		// format nodes info
 		nodes = nodes.map(d => ({
