@@ -121,39 +121,6 @@ function createBubble() {
 	
 	update()
 
-	$('#sankey-range').on('change', () => {
-		$('.sankey-node').on('click', () => {
-			update()
-		})
-		update()
-		// d3v5.select('rect[data-' + selected_type + '="' + d.name + '"]')
-			
-	})
-
-	$('.sankey-node').on('click', () => {
-		update()
-	})
-
-	$('#show-all-singulars').on('click', () => {
-		selected_ending = ''
-		selected_type = 'plural'
-		selected_i = -1
-		bubble_type = 'Singular'
-		$('#selected-ending').html('All Singulars')
-		$('#selected-type').html('')
-		update()
-	})
-
-	$('#show-all-plurals').on('click', () => {
-		selected_ending = ''
-		selected_type = 'singular'
-		selected_i = -1
-		bubble_type = 'Plural'
-		$('#selected-ending').html('All Plurals')
-		$('#selected-type').html('')
-		update()
-	})
-
 	// button handlers
 	$('#bubble-nouns').on('click', () => {
 		if (selected_type == 'nouns') return

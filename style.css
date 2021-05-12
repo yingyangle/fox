@@ -123,6 +123,14 @@ textarea::placeholder {
 	opacity: 0.8;
 }
 
+text {
+	z-index: 20;
+}
+
+circle {
+	z-index: 10;
+}
+
 .noscroll { 
 	overflow: hidden;
 }
