@@ -113,8 +113,14 @@ a:hover, a.text-citation:hover {
 textarea {
 	resize: none;
 	border-radius: 14px;
+	border: 1px solid #745a36;
 	padding: 10px;
 	background-color: transparent;
+}
+
+textarea::placeholder {
+	color: var(--my-black);
+	opacity: 0.8;
 }
 
 .noscroll { 
@@ -192,6 +198,7 @@ textarea {
 
 #container > img {
 	margin-bottom: 8px;
+	opacity: 0.85;
 }
 
 .row {
@@ -251,7 +258,7 @@ text {
 
 .relationships-animal img {
 	margin-bottom: 4px;
-	opacity: 0.8;
+	opacity: 0.85;
 }
 
 .relationships-animal div {
@@ -312,6 +319,7 @@ text {
 	max-height: 400px;
 	transition: all linear 0.2s;
 	width: 100%;
+	overflow: hidden;
 }
 
 #map-infobox-title {
@@ -334,12 +342,12 @@ text {
 .quotes-list {
 	border: 1px solid #745a36;
 	border-radius: 20px;
-	background-color: rgba(255, 255, 255, 0.67);
+	/* background-color: rgba(255, 255, 255, 0.67); */
 	font-size: 20px;
 	padding: 20px;
 	max-height: 500px;
-	max-width: 800px;
-	margin: auto;
+	max-width: 700px;
+	margin: 20px auto;
 	padding-right: 10px;
 }
 
@@ -367,7 +375,7 @@ text {
 }
 
 #sources-list {
-	margin: 40px 120px;
+	margin: 30px 120px;
 }
 
 #sources-list li {

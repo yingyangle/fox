@@ -187,7 +187,7 @@ function getCountries() {
 					'properties': {
 						'value': '1',
 						'tooltip': 'Thebes - Teumessian Fox',
-						'infobox': '<p>The Teumessian Fox was sent to ravage the landscape of Thebes and it was fated to never be caught. It was sent either by Dionysus as a punishment for failing to recognize him as a divinity, or as a punishment for the death of the Sphinx. When King Creon ordered Amphitryon to deal with the fox, he sent the dog Laelaps to catch it since this dog was fated to catch everything it ever caught. In order to resolve this paradox, Zeus either turned them both to stone or sent them to the stars.</p><p>The swiftness of the Teumessian Fox and its characteristic of being uncatchable seems to reflect many of the ideas of the fox as a swift-footed and elusive creature, always managing to slip out of traps and escape. We also see the association between foxes and causing damage here, as the Teumessian Fox brought damage to the land of Thebes, just as Samson\'s foxes brought damage to the Philistines and the burning box set fire to the fields of Cerealia.</p>',
+						'infobox': "<p>The Teumessian Fox was sent to ravage the landscape of Thebes and it was fated to never be caught. It was sent either by Dionysus as a punishment for failing to recognize him as a divinity, or as a punishment for the death of the Sphinx. When King Creon ordered Amphitryon to deal with the fox, he sent Cephalus's dog Laelaps to catch it since this dog was fated to catch everything it ever caught. In order to resolve this paradox, Zeus either turned them both to stone or sent them to the stars.</p><p>The swiftness of the Teumessian Fox and its characteristic of being uncatchable seems to reflect many of the ideas of the fox as a swift-footed and elusive creature, always managing to slip out of traps and escape. We also see the association between foxes and causing damage here, as the Teumessian Fox brought damage to the land of Thebes, just as Samson's foxes brought damage to the Philistines and the burning box set fire to the fields of Cerealia.</p>",
 					}
 				},
 			},
@@ -229,7 +229,7 @@ function getCountries() {
 					'properties': {
 						'value': '1',
 						'tooltip': 'Rome - Cerealia',
-						'infobox': '<p>In Rome during the Cerealia festival which celebrates Ceres the goddess of agriculture, there\'s a ritual where a fox is bound and set on fire with a torch to be burned alive. This tradition supposedly comes from the story of a boy who once set a fox on fire. When the fox escaped, it burned the fields and caused great damage. Because of this, the fox is burned at Cerealia to repay for its past crimes.</p><p>This story reflects a common association of foxes with fire and with causing damage. We also see foxes causing damage with fire in the story of Samson and the 300 burning foxes.</p>',
+						'infobox': "<p>In Rome during the Cerealia festival which celebrates Ceres the goddess of agriculture, there's a ritual where a fox is bound and set on fire with a torch to be burned alive. This tradition supposedly comes from the story of a boy who once set a fox on fire. When the fox escaped, it burned the fields and caused great damage. Because of this, the fox is burned at Cerealia to repay for its past crimes.</p><p>This story reflects a common association of foxes with fire and with causing damage. We also see foxes causing damage with fire in the story of Samson and the 300 burning foxes.</p>",
 					}
 				}
 			},
@@ -244,8 +244,8 @@ function getCountries() {
 					],
 					'properties': {
 						'value': '1',
-						'tooltip': 'Delphi - Aesop\'s Fables',
-						'infobox': '<p>The fox is one of the most frequent characters to appear in Aesop\'s fables, and the fable of the Fox and the Grapes is among the most famous fables from this tradition.</p><p>The fox in Aesop is always female and is characterized with the typical crafty and cunning wit we still associate with the fox today..</p>',
+						'tooltip': "Delphi - Aesop's Fables",
+						'infobox': "<p>The fox is one of the most frequent characters to appear in Aesop's fables, and the fable of the Fox and the Grapes is among the most famous fables from this tradition.</p><p>The fox in Aesop is always female and is characterized with the typical crafty and cunning wit we still associate with the fox today.</p>",
 					}
 				}
 			},
