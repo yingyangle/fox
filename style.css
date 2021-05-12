@@ -403,6 +403,9 @@ text {
 #back-to-text {
 	display: none;
 	margin: auto;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
 }
 
 a.citation {

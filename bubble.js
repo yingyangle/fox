@@ -15,6 +15,11 @@ function createBubble() {
 	const svg = d3v5.select('#bubble').append('svg')
 		.attr('viewBox', [-width / 2, -height / 2, width, height])
 	
+	function colorScale(d) {
+		if (d == 'physical') return '#B88846'
+		else return '#EEA849'
+	}
+		
 	// filter and format data
 	function get_data() {
 		nodes = bubble_nodes[selected_type]
@@ -73,17 +78,14 @@ function createBubble() {
 			.classed('bubble', true)
 			.attr('class', 'node')
 			.attr('r', d => d.radius)
-			.attr('fill', d => {
-				if (d.type == 'physical') return '#B88846'
-				else return '#EEA849'
-			})
+			.attr('fill', d => colorScale(d.type))
 			.attr('opacity', 0.6)
 			.call(drag(force))
 
 		// circle labels
 		let labels = node.append('text')
 			.text(d => d.name)
-			.style('font-size', '14px')
+			.style('font-size', '12px')
 			.attr('class', 'nunito')
 			.attr('fill', '#4d4b47')
 			.attr('x', 0)
@@ -91,6 +93,37 @@ function createBubble() {
 			.attr('text-anchor', 'middle')
 			.call(drag(force))
 
+		// legend
+		var legend = svg.append('g')
+			.attr('class', 'legend')
+			.attr('height', 100)
+			.attr('width', 100)
+			.attr('transform', 'translate(-20,50)')
+			
+		legend.selectAll('rect')
+			.data(['physical', 'character'])
+			.enter()
+			.append('rect')
+			.attr('x', -180)
+			.attr('y', (d,i) => (i * 12) - 200)
+			.attr('width', 8)
+			.attr('height', 8)
+			.attr('fill', d => colorScale(d))
+			.attr('opacity', 0.6)
+
+		legend.selectAll('text')
+			.data(['physical', 'character'])
+			.enter()
+			.append('text')
+			.attr('x', -180 + 12)
+			.attr('y', (d,i) => (i * 12) -200 + 7)
+			.attr('font-size', '10px')
+			// .attr('font-family', 'Nunito Sans')
+			.text(function(d) {
+				let text = d;
+				return text;
+			});
+			
 		var tooltip = d3v5.select('.tooltip')
 
 		// // title

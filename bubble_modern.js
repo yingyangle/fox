@@ -182,6 +182,7 @@ function createBubble() {
 			.attr('width', 7)
 			.attr('height', 7)
 			.attr('fill', d => colorScale(d))
+			.attr('opacity', 0.6)
 
 		legend.selectAll('text')
 			.data(mediums)

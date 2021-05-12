@@ -1,6 +1,7 @@
 var sources_dict = {} // dict mapping source code to id order
 var sources_elements // list of li elements in sources list
 var save_spot // location of clicked citation
+var scroll_ready = 0 // whether we've arrived at scrolling to the selected source 
 
 // populate sources list
 d3v5.csv('data/citations.csv', d3.autoType).then(data => {
@@ -92,4 +93,5 @@ function getCitations() {
 			sources_elements.removeClass('source-highlighted')
 		}
 	})
+
 }
