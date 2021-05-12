@@ -39,3 +39,27 @@ verbs_count = Counter(verbs_full)
 print(adj_count)
 print(verbs_count)
 
+# save to csv - ADJ
+words = []
+counts = []
+for a in adj_count:
+	words.append(a)
+	counts.append(adj_count[a])
+
+df = pd.DataFrame({'name': words, 'count': counts})
+df.to_csv('survey_adj.csv', index=False, encoding='utf-8-sig')
+
+# save to csv - VERB
+words = []
+counts = []
+for a in verbs_count:
+	words.append(a)
+	counts.append(verbs_count[a])
+
+df = pd.DataFrame({'name': words, 'count': counts})
+df.to_csv('survey_verbs.csv', index=False, encoding='utf-8-sig')
+
+
+
+
+

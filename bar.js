@@ -1,43 +1,9 @@
 // margins
-var margin = {top: 60, right: 80, bottom: 60, left: 80},
+var margin = {top: 20, right: 80, bottom: 20, left: 80},
 	width = 660 - margin.left - margin.right,
-	height = 400 - margin.top - margin.bottom
+	height = 700 - margin.top - margin.bottom
 
-var data = [{
-		'name': 'crafty',
-		'value': 20,
-		'type': 'character',
-},
-	{
-		'name': 'sneaky',
-		'value': 12,
-		'type': 'character',
-},
-	{
-		'name': 'sly',
-		'value': 19,
-		'type': 'character',
-},
-	{
-		'name': 'tricky',
-		'value': 5,
-		'type': 'character',
-},
-	{
-		'name': 'lithe',
-		'value': 16,
-		'type': 'physical',
-},
-	{
-		'name': 'orange',
-		'value': 26,
-		'type': 'physical',
-},
-	{
-		'name': 'swift',
-		'value': 30,
-		'type': 'character',
-}]
+var data = [{"name": "red", "value": 1140, "type": "physical"}, {"name": "old", "value": 573, "type": "physical"}, {"name": "little", "value": 189, "type": "physical"}, {"name": "young", "value": 141, "type": "physical"}, {"name": "gray", "value": 155, "type": "physical"}, {"name": "great", "value": 127, "type": "physical"}, {"name": "bad", "value": 91, "type": "character"}, {"name": "black", "value": 64, "type": "physical"}, {"name": "arctic", "value": 61, "type": "physical"}, {"name": "fuzzy", "value": 47, "type": "physical"}, {"name": "white", "value": 46, "type": "physical"}, {"name": "poor", "value": 44, "type": "character"}, {"name": "dead", "value": 40, "type": "physical"}, {"name": "frisky", "value": 32, "type": "character"}, {"name": "smart", "value": 32, "type": "character"}, {"name": "big", "value": 32, "type": "physical"}, {"name": "frank", "value": 32, "type": "character"}, {"name": "wise", "value": 30, "type": "character"}, {"name": "long", "value": 28, "type": "physical"}, {"name": "hungry", "value": 26, "type": "physical"}, {"name": "sly", "value": 23, "type": "character"}, {"name": "good", "value": 23, "type": "character"}, {"name": "wild", "value": 22, "type": "physical"}, {"name": "wicked", "value": 22, "type": "character"}, {"name": "cunning", "value": 21, "type": "character"}, {"name": "common", "value": 18, "type": "physical"}, {"name": "fast", "value": 17, "type": "physical"}, {"name": "large", "value": 17, "type": "physical"}, {"name": "female", "value": 16, "type": "physical"}, {"name": "alone", "value": 15, "type": "physical"}, {"name": "silver", "value": 15, "type": "physical"}, {"name": "dear", "value": 14, "type": "physical"}, {"name": "wily", "value": 14, "type": "character"}, {"name": "angry", "value": 14, "type": "character"}, {"name": "mighty", "value": 13, "type": "character"}, {"name": "clever", "value": 13, "type": "character"}, {"name": "nice", "value": 13, "type": "character"}, {"name": "northern", "value": 12, "type": "physical"}, {"name": "quick", "value": 12, "type": "physical"}, {"name": "frightened", "value": 12, "type": "character"}, {"name": "afraid", "value": 11, "type": "character"}, {"name": "crafty", "value": 10, "type": "character"}, {"name": "yellow", "value": 10, "type": "physical"}, {"name": "small", "value": 9, "type": "physical"}, {"name": "surprised", "value": 9, "type": "character"}, {"name": "foolish", "value": 7, "type": "character"}]
 
 // sort bars based on value
 data = data.sort(function (a, b) {
@@ -46,6 +12,8 @@ data = data.sort(function (a, b) {
 
 // draw horizontal bar chart
 function drawBar(data, element) {
+	// filter data
+	data = data.filter(x => x.value > 20)
 	// initiate svg
 	var svg = d3.select(element)
 		.append('svg')

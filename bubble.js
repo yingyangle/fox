@@ -2,69 +2,13 @@ var total_count = 3
 var selected_type = 'nouns'
 var bubble_nodes = {
 	'nouns': 
-	[
-		{
-			'name': 'clever',
-			'type': 'character',
-			'count': 16,
-
-		},
-		{
-			'name': 'tricky',
-			'type': 'character',
-			'count': 10,
-
-		},
-		{
-			'name': 'crafty',
-			'type': 'character',
-			'count': 10,
-
-		},
-		{
-			'name': 'orange',
-			'type': 'physical',
-			'count': 10,
-
-		},
-		{
-			'name': 'red',
-			'type': 'physical',
-			'count': 5,
-
-		},
-		{
-			'name': 'tricky',
-			'type': 'character',
-			'count': 4,
-
-		},
-	],
-	'verbs': [
-		{
-			'name': 'sneak',
-			'type': 'character',
-			'count': 12,
-
-		},
-		{
-			'name': 'jump',
-			'type': 'character',
-			'count': 7,
-
-		},
-		{
-			'name': 'trick',
-			'type': 'character',
-			'count': 5,
-
-		},
-	]
+	[{"name": "sly", "count": 19, "type": "character"}, {"name": "sneaky", "count": 11, "type": "character"}, {"name": "smart", "count": 8, "type": "character"}, {"name": "cute", "count": 16, "type": "character"}, {"name": "antisocial", "count": 1, "type": "character"}, {"name": "red", "count": 10, "type": "physical"}, {"name": "striped", "count": 1, "type": "physical"}, {"name": "four-legged", "count": 1, "type": "physical"}, {"name": "cunning", "count": 17, "type": "character"}, {"name": "clever", "count": 8, "type": "character"}, {"name": "deviant", "count": 1, "type": "character"}, {"name": "evil", "count": 1, "type": "character"}, {"name": "sharp", "count": 3, "type": "character"}, {"name": "tricky", "count": 2, "type": "character"}, {"name": "shrewd", "count": 1, "type": "character"}, {"name": "untrustworthy", "count": 1, "type": "character"}, {"name": "nimble", "count": 2, "type": "physical"}, {"name": "fast", "count": 7, "type": "physical"}, {"name": "devious", "count": 2, "type": "character"}, {"name": "furry", "count": 8, "type": "physical"}, {"name": "crafty", "count": 2, "type": "character"}, {"name": "frisky", "count": 2, "type": "character"}, {"name": "shifty", "count": 1, "type": "character"}, {"name": "pointy", "count": 1, "type": "physical"}, {"name": "wild", "count": 1, "type": "physical"}, {"name": "greedy", "count": 1, "type": "character"}, {"name": "beautiful", "count": 3, "type": "character"}, {"name": "orange", "count": 12, "type": "physical"}, {"name": "small", "count": 5, "type": "physical"}, {"name": "loud", "count": 1, "type": "physical"}, {"name": "territorial", "count": 1, "type": "character"}, {"name": "deceptive", "count": 1, "type": "character"}, {"name": "disguised", "count": 1, "type": "character"}, {"name": "two-faced", "count": 1, "type": "character"}, {"name": "smooth", "count": 1, "type": "physical"}, {"name": "tailed", "count": 1, "type": "physical"}, {"name": "cuddly", "count": 1, "type": "character"}, {"name": "quick", "count": 4, "type": "physical"}, {"name": "agile", "count": 1, "type": "physical"}, {"name": "soft", "count": 2, "type": "physical"}, {"name": "playful", "count": 1, "type": "character"}, {"name": "mystical", "count": 2, "type": "character"}, {"name": "scary", "count": 1, "type": "character"}, {"name": "deceitful", "count": 1, "type": "character"}, {"name": "cautious", "count": 1, "type": "character"}, {"name": "silly", "count": 1, "type": "character"}, {"name": "fluffy", "count": 4, "type": "physical"}, {"name": "happy", "count": 1, "type": "character"}, {"name": "squeaky", "count": 1, "type": "physical"}, {"name": "sleazy", "count": 1, "type": "character"}, {"name": "wily", "count": 1, "type": "character"}, {"name": "mysterious", "count": 3, "type": "character"}, {"name": "thieving", "count": 1, "type": "character"}, {"name": "stealthy", "count": 1, "type": "character"}, {"name": "snowy", "count": 1, "type": "physical"}, {"name": "curious", "count": 1, "type": "character"}, {"name": "ugly", "count": 1, "type": "physical"}, {"name": "swift", "count": 1, "type": "physical"}, {"name": "duo-toned", "count": 1, "type": "physical"}, {"name": "teethy", "count": 1, "type": "physical"}, {"name": "elegant", "count": 1, "type": "character"}, {"name": "huggable", "count": 1, "type": "character"}, {"name": "adorable", "count": 1, "type": "character"}, {"name": "squishy", "count": 1, "type": "physical"}],
+	'verbs': [{"name": "bark", "count": 1}, {"name": "beguile", "count": 1}, {"name": "bite", "count": 4}, {"name": "bound", "count": 1}, {"name": "burrow", "count": 1}, {"name": "catch", "count": 1}, {"name": "chasing", "count": 2}, {"name": "cheat", "count": 1}, {"name": "claw", "count": 1}, {"name": "crafty", "count": 1}, {"name": "creep", "count": 1}, {"name": "crouch", "count": 1}, {"name": "dance", "count": 1}, {"name": "dash", "count": 2}, {"name": "deceive", "count": 2}, {"name": "dig", "count": 2}, {"name": "dive", "count": 2}, {"name": "doge", "count": 1}, {"name": "eat", "count": 9}, {"name": "float", "count": 1}, {"name": "forage", "count": 2}, {"name": "giggle", "count": 2}, {"name": "growl", "count": 2}, {"name": "guide", "count": 1}, {"name": "head", "count": 1}, {"name": "hide", "count": 8}, {"name": "hop", "count": 2}, {"name": "hunt", "count": 9}, {"name": "investigate", "count": 1}, {"name": "jump", "count": 11}, {"name": "kick", "count": 1}, {"name": "kill", "count": 3}, {"name": "laugh", "count": 4}, {"name": "leap", "count": 1}, {"name": "lie", "count": 3}, {"name": "live", "count": 1}, {"name": "look", "count": 2}, {"name": "mark", "count": 1}, {"name": "move", "count": 1}, {"name": "nap", "count": 1}, {"name": "play", "count": 2}, {"name": "plot", "count": 1}, {"name": "pounce", "count": 2}, {"name": "prowl", "count": 1}, {"name": "reach", "count": 1}, {"name": "roam", "count": 1}, {"name": "run", "count": 24}, {"name": "say", "count": 1}, {"name": "scamper", "count": 2}, {"name": "scheme", "count": 1}, {"name": "scream", "count": 1}, {"name": "shout", "count": 1}, {"name": "sleep", "count": 4}, {"name": "slink", "count": 1}, {"name": "smile", "count": 1}, {"name": "smirk", "count": 1}, {"name": "sneak", "count": 10}, {"name": "solve", "count": 1}, {"name": "squat", "count": 1}, {"name": "squeal", "count": 1}, {"name": "stalk", "count": 2}, {"name": "stare", "count": 1}, {"name": "steal", "count": 9}, {"name": "strike", "count": 1}, {"name": "survive", "count": 1}, {"name": "swipe", "count": 4}, {"name": "talk", "count": 1}, {"name": "think", "count": 1}, {"name": "throw", "count": 1}, {"name": "tiptoe", "count": 2}, {"name": "trap", "count": 1}, {"name": "trick", "count": 7}, {"name": "trot", "count": 3}, {"name": "wag", "count": 1}, {"name": "wait", "count": 1}, {"name": "watch", "count": 3}, {"name": "whine", "count": 1}, {"name": "yap", "count": 1}, {"name": "yip", "count": 1}, {"name": "zoom", "count": 1}]
 }
 
 function createBubble() {
 	let width = 400
-	let height = 280
+	let height = 340
 	var center = { x: 0 , y: 0 }
 
 	// create svg
@@ -74,6 +18,9 @@ function createBubble() {
 	// filter and format data
 	function get_data() {
 		nodes = bubble_nodes[selected_type]
+		// filter nodes
+		nodes = nodes.filter(x => x.count > 1)
+
 		var maxSize = d3v5.max(nodes, d => +d.count)
 		var minSize = d3v5.min(nodes, d => +d.count)
 		

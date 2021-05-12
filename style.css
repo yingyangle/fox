@@ -236,7 +236,7 @@ text {
 }
 
 #fable-interactions .group {
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 
 #relationships {
