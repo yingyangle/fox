@@ -259,7 +259,7 @@ function getCountries() {
 					'properties': {
 						'value': '1',
 						'tooltip': 'Alexandria - Physiologus',
-						'infobox': '<p>The Physiologus bestiary contains descriptions of the fox which condemn the animal as a parallel of the devil in its duplicitous way with words.</p><p></p>',
+						'infobox': '<p>The Physiologus bestiary contains descriptions of the fox which condemn the animal as a parallel of the devil in its duplicitous way with words.</p>',
 					}
 				}
 			},
@@ -273,7 +273,7 @@ function getCountries() {
 					'properties': {
 						'value': '1',
 						'tooltip': 'China - Huli Jing',
-						'infobox': '<p>The huli jing is one of the most prominent creatures of Chinese mythology, and is described as a fox spirit who can transform into a beautiful woman.</p><p>In stories of the huli jing we see displayed many of the erotic themes and connotations of the fox.</p>',
+						'infobox': '<p>The huli jing is one of the most prominent creatures of Chinese mythology, and is described as a fox spirit who can transform into a beautiful woman.</p><p>In stories of the kumiho we see displayed many of the sexual themes of the fox, as well as its association with magical ability and transformation. The kumiho is a chiefly malignent creature to be feared and avoided, causing damage to families by seducing married men and sucking the life energy out of those she seduces.</p>',
 					}
 				}
 			},
@@ -287,7 +287,7 @@ function getCountries() {
 					'properties': {
 						'value': '1',
 						'tooltip': 'Japan - Kitsune',
-						'infobox': '<p>The kitsune is featured prominently in Japanese mythology, and is described as a fox spirit who can transform into a beautiful woman.</p><p>In stories of the kitsune we see displayed many of the erotic themes and connotations of the fox.</p>',
+						'infobox': '<p>The kitsune is featured prominently in Japanese mythology, and is described as a fox spirit who can transform into a beautiful woman.</p><p>In stories of the kumiho we see displayed many of the sexual themes of the fox, as well as its association with magical ability and transformation. The kumiho is a chiefly malignent creature to be feared and avoided, causing damage to families by seducing married men and sucking the life energy out of those she seduces.</p>',
 					}
 				}
 			},
@@ -301,7 +301,7 @@ function getCountries() {
 					'properties': {
 						'value': '1',
 						'tooltip': 'Korea - Kumiho',
-						'infobox': '<p>The kumiho in Korean mythology is a fox spirit who can transform into a beautiful woman.</p><p>In stories of the kumiho we see displayed many of the erotic themes and connotations of the fox.</p>',
+						'infobox': '<p>The kumiho in Korean mythology is a fox spirit which can transform into a beautiful woman.</p><p>In stories of the kumiho we see displayed many of the sexual themes of the fox, as well as its association with magical ability and transformation. The kumiho is a chiefly malignent creature to be feared and avoided, causing damage to families by seducing married men and sucking the life energy out of those she seduces.</p>',
 					}
 				}
 			},
@@ -344,6 +344,20 @@ function getCountries() {
 						'value': '1',
 						'tooltip': 'Dogon people - The Pale Fox',
 						'infobox': '<p>In the culture of the Dogon people who live around Mali and other countries in western Africa, the pale fox is said to be the cause of disorder and chaos.</p><p>This depiction of the fox is consistent with other accounts of the fox bringing about damage and being associated with sin and evil.</p>',
+					}
+				}
+			},
+			{
+				'geometry': {
+					'type': 'Point',
+					'coordinates': [
+						'-123.046875',
+						'58.631217'
+					],
+					'properties': {
+						'value': '1',
+						'tooltip': 'Athapascan tribes - Etiology',
+						'infobox': "<p>In the folklore of the Athapascan tribes in North America, the fox is said to have gotten its red color when it was hunting a goose and the goose escape through the water. In its rage, the fox's fur became red.</p>",
 					}
 				}
 			},
